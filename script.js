@@ -44,6 +44,12 @@ function renderizarCards(itens) {
     cardContainer.innerHTML = '<p class="nenhum-resultado">Nenhum resultado encontrado para sua busca.</p>';
     return;
   }
+
+  // Atualiza o contador de tecnologias no cabeçalho com base nos itens atualmente renderizados.
+  const techCounter = document.getElementById('tech-count');
+  if (techCounter) {
+      techCounter.textContent = `${itens.length} tecnologias`;
+  }
   
   // Itera sobre cada item do array de dados para criar um card.
   itens.forEach(item => {
@@ -80,12 +86,6 @@ async function carregarDados() {
     const resposta = await fetch("baseDeConhecimento.json"); // Faz a requisição para o arquivo data.json.
     dados = await resposta.json(); // Converte a resposta em formato JSON e armazena na variável global.
     renderizarCards(dados); // Renderiza todos os cards na tela inicialmente.
-
-    // Atualiza o contador de tecnologias no cabeçalho.
-    const techCounter = document.getElementById('tech-count');
-    if (techCounter) {
-        techCounter.textContent = `${dados.length} tecnologias`;
-    }
   } catch (error) {
     // Em caso de erro na requisição, exibe uma mensagem no console e na tela.
     console.error("Falha ao carregar os dados:", error);
