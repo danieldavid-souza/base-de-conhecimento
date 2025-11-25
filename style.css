@@ -134,16 +134,28 @@ main {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Aumenta a sombra no hover. */
 }
 
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem 0.5rem; /* Adiciona padding ao redor do cabeçalho do card */
+}
+
+.card-icon {
+    font-size: 2.5rem; /* Tamanho do ícone */
+    color: var(--primary-color); /* Cor do ícone */
+}
+
 .card-content {
-    padding: 1.5rem; /* Espaçamento interno do conteúdo. */
+    padding: 0 1.5rem 1.5rem; /* Espaçamento interno do conteúdo, ajustado. */
 }
 
 .card h2 {
     margin-top: 0; /* Remove a margem do topo. */
     font-weight: 600; /* Peso da fonte */
     font-size: 1.6rem; /* Tamanho da fonte */
-    margin-bottom: 0.25rem; /* Margem inferior */
-    color: var(--primary-color); /* Cor do texto */
+    margin-bottom: 0; /* Margem inferior */
+    color: var(--secondary-color); /* Cor do texto - alterado para branco para contraste com ícone */
 }
 
 .card p {
@@ -293,6 +305,7 @@ main {
         flex-direction: column; /* Organiza em coluna */
         gap: 0.5rem; /* Espaçamento entre os itens */
         width: 100%; /* Ocupa toda a largura. */
+        align-items: stretch; /* Faz o input e o botão ocuparem a mesma largura */
     }
 
     .footer-content { /* Em telas pequenas, o rodapé fica em coluna. */

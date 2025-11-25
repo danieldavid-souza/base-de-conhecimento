@@ -4,6 +4,37 @@ const inputBusca = document.querySelector("input[type='text']"); // O campo de t
 
 let dados = []; // Array que irá armazenar os dados carregados do data.json.
 
+// Função para normalizar o nome da tecnologia e obter a classe do ícone Devicon.
+function getIconClass(nome) {
+  const name = nome.toLowerCase();
+  // Mapeamento para casos especiais onde o nome não corresponde diretamente ao ícone.
+  const specialCases = {
+    'c#': 'csharp',
+    'c++': 'cplusplus',
+    'node.js': 'nodejs',
+    'vue.js': 'vuejs',
+    'react': 'react-original', // React usa 'original' para o ícone colorido
+    'angular': 'angularjs', // Devicon usa 'angularjs' para o ícone do Angular
+    'html5': 'html5',
+    'css3': 'css3',
+    'aws lambda': 'amazonwebservices-original',
+    'google': 'google',
+    'next.js': 'nextjs-original',
+    'express.js': 'express-original',
+    'github actions': 'githubactions'
+  };
+
+  if (specialCases[name]) {
+    return `devicon-${specialCases[name]}-plain`;
+  }
+
+  // Remove pontos e outros caracteres que não são usados nas classes do Devicon.
+  const normalizedName = name.replace(/\./g, '');
+
+  // Retorna a classe padrão. A maioria dos ícones usa o formato 'devicon-<nome>-plain'.
+  return `devicon-${normalizedName}-plain`;
+}
+
 // Função responsável por criar e exibir os cards na tela.
 function renderizarCards(itens) {
   cardContainer.replaceChildren(); // Limpa os cards existentes de forma otimizada.
@@ -26,8 +57,11 @@ function renderizarCards(itens) {
 
     // Define o conteúdo HTML do card usando template literals para fácil interpolação.
     article.innerHTML = `
-      <div class="card-content">
+      <div class="card-header">
+        <i class="${getIconClass(item.nome)} card-icon"></i>
         <h2>${item.nome}</h2>
+      </div>
+      <div class="card-content">
         <p><strong>Criação:</strong> ${item.data_criacao || item.ano}</p>
         <p class="card-description">${item.descricao}</p>
         ${tagsHTML}
@@ -71,6 +105,7 @@ function buscarDados() {
   );
   renderizarCards(dadosFiltrados); // Renderiza os cards com os dados filtrados.
 }
+
 
 // Adiciona ouvinte de evento para o campo de busca.
 inputBusca.addEventListener('input', buscarDados); // Executa a busca dinamicamente enquanto o usuário digita.

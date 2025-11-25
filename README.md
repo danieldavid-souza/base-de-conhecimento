@@ -1,87 +1,91 @@
 # 📚 Base de Conhecimento de Tecnologias
 
 ![Status](https://img.shields.io/badge/status-ativo-brightgreen)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
 
 Uma aplicação web interativa e elegante que serve como uma base de conhecimento para diversas linguagens de programação e tecnologias. O projeto permite aos usuários visualizar e pesquisar informações detalhadas sobre cada tecnologia em um layout de cards responsivo.
 
----
-
-## 🚀 Demonstração
-
-![Demonstração da Aplicação](https://i.imgur.com/example.gif) 
-*(Nota: Substitua `https://i.imgur.com/example.gif` pela URL de um GIF real da sua aplicação)*
+A base de conhecimento é expandida dinamicamente utilizando a API do Google Gemini para gerar novas entradas.
 
 ---
 
 ## ✨ Funcionalidades
 
 - **Visualização em Cards:** As tecnologias são exibidas em um layout de grid com cards elegantes e informativos.
+- **Ícones de Tecnologia:** Cada card exibe o ícone oficial da respectiva linguagem ou ferramenta, melhorando a identificação visual.
 - **Busca Dinâmica:** Filtre as tecnologias em tempo real digitando no campo de busca. A pesquisa abrange nomes, descrições e tags.
 - **Design Responsivo:** A interface se adapta perfeitamente a diferentes tamanhos de tela, de desktops a dispositivos móveis.
 - **Carregamento Assíncrono:** Os dados são carregados de um arquivo JSON local de forma assíncrona, sem travar a interface.
 - **Contador de Tecnologias:** O cabeçalho exibe dinamicamente o número total de tecnologias disponíveis na base de dados.
-- **Links Externos:** Cada card possui um link "Saiba mais" que direciona para a documentação oficial ou uma fonte relevante.
+- **Botão de Administrador:** Em ambiente de desenvolvimento (`localhost`), um botão especial "Aumentar Conhecimento" fica visível, permitindo ao administrador executar o script que adiciona novas tecnologias à base de dados com um único clique.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto foi construído utilizando tecnologias web fundamentais, sem a necessidade de frameworks complexos, focando em performance e boas práticas.
-
 - **HTML5:** Para a estrutura semântica do conteúdo.
-- **CSS3:** Para a estilização, layout (Flexbox e Grid) e responsividade.
-- **JavaScript (ES6+):** Para a interatividade, manipulação do DOM, busca dinâmica e carregamento de dados (`fetch API`, `async/await`).
+- **Google Gemini API:** Para gerar o conteúdo das novas tecnologias de forma automática.
 
 ---
 
 ## ⚙️ Como Executar o Projeto
 
-Como este é um projeto frontend puro (HTML, CSS, JS), você não precisa de um servidor complexo para executá-lo.
+Existem duas maneiras de executar o projeto:
+1.  Abra o arquivo `index.html` no seu navegador.
+2.  A maneira mais fácil é usar uma extensão como o **Live Server** no Visual Studio Code.
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
+### Modo de Desenvolvimento Completo (com o botão "Aumentar Conhecimento")
 
-2.  **Navegue até o diretório do projeto:**
-    ```bash
-    cd seu-repositorio
-    ```
+Para poder usar o botão e aumentar a base de conhecimento:
 
-3.  **Abra o arquivo `index.html`:**
-    A maneira mais fácil é usar uma extensão como o **Live Server** no Visual Studio Code.
-    - Clique com o botão direito no arquivo `index.html`.
-    - Selecione "Open with Live Server".
+Existem duas formas de adicionar novas tecnologias ao arquivo `baseDeConhecimento.json`:
 
-    Alternativamente, você pode simplesmente abrir o arquivo `index.html` diretamente no seu navegador.
+### Via Botão na Interface (Recomendado)
+- Siga os passos do "Modo de Desenvolvimento Completo".
+- Com o servidor rodando (`npm run server`), acesse a página no seu `localhost`.
+- Clique no botão "Aumentar Conhecimento".
+- Aguarde a confirmação e a página será recarregada com os novos itens.
 
----
+### Via Linha de Comando
 
-## 🤝 Como Contribuir
+Esta seção descreve o funcionamento do script `gerador.js`.
 
-Contribuições são sempre bem-vindas! Se você deseja adicionar novas tecnologias, corrigir bugs ou melhorar o layout, siga estes passos:
+**Descrição curta**
+Cria e expande automaticamente uma base de conhecimento em JSON adicionando, em cada execução, 25 novas entradas únicas sobre tecnologias (linguagens, frameworks, ferramentas, bancos de dados, metodologias). A lógica usa a API Gemini para gerar conteúdo estruturado e valida/mescla o resultado com o arquivo local `baseDeConhecimento.json`.
 
-1.  **Faça um Fork** do projeto.
-2.  **Crie uma nova Branch** para sua modificação (`git checkout -b feature/nova-tecnologia`).
-3.  **Adicione suas alterações.** Para novas tecnologias, edite o arquivo `baseDeConhecimento.json` seguindo o padrão existente.
-4.  **Faça o Commit** das suas alterações (`git commit -m 'Adiciona a tecnologia X'`).
-5.  **Faça o Push** para a sua Branch (`git push origin feature/nova-tecnologia`).
-6.  **Abra um Pull Request.**
+**O que ele faz (resumido)**
+- Gera exatamente 25 novas entradas em formato JSON.
+- Evita repetir nomes já presentes na base.
+- Faz validação básica da resposta (garante que seja um ARRAY com 25 objetos).
+- Realiza tentativas com backoff exponencial em caso de falhas.
+- Atualiza (sobrescreve) o arquivo `baseDeConhecimento.json` com a base combinada.
+
+**Como executar (resumido)**
+1. Instale dependências:
+   ```sh
+   npm install
+   ```
+
+2. Crie um arquivo `.env` na raiz com:
+   `GEMINI_API_KEY="SUA_CHAVE_AQUI"`
+
+3. Execute:
+   ```sh
+   npm start
+   ```
+
+**O que esperar**
+- Ao finalizar, o arquivo `baseDeConhecimento.json` será atualizado com as entradas antigas + 25 novas geradas.
+- Logs no console informam sucesso, número de itens e possíveis erros.
+
+
+
+
+
+
 
 ---
 
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-**Copyright (c) 2025 Daniel David de Souza**
-
-É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação, fusão, publicação, distribuição, sublicenciamento e/ou venda de cópias do Software, e para permitir que as pessoas a quem o Software é fornecido o façam, sujeito às seguintes condições:
-
-O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
-
-O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA, OS AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTE DE, FORA DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.
