@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+/* Animação para o aparecimento suave dos cards */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+* {
+    box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho total do elemento. */
+}
+
+:root {
+    --primary-color: #8ab4f8; /* Cor primária para destaques e links (azul claro). */
+    --secondary-color: #e8eaed; /* Cor secundária para textos principais (cinza claro). */
+    --tertiary-color: #9aa0a6; /* Cor terciária para textos de apoio e placeholders (cinza médio). */
+    --bg-color: #202124; /* Cor de fundo principal da página (cinza escuro). */
+    --border-color: #3c4043; /* Cor para bordas sutis. */
+    --card-bg-color: #2d2e30; /* Cor de fundo para os cards. */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body. */
+    background: var(--bg-color); /* Define a cor de fundo usando uma variável. */
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável. */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte para toda a página. */
+    display: flex; /* Usa Flexbox para o layout principal. */
+    flex-direction: column; /* Organiza os filhos diretos (header, main, footer) em coluna. */
+    min-height: 100vh; /* Garante que o body ocupe no mínimo a altura total da tela. */
+}
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno para a barra do cabeçalho. */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    z-index: 10; /* Garante que o cabeçalho fique sobre outros elementos ao rolar. */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+}
+
+.header-content {
+    width: 100%; /* Ocupa toda a largura do pai. */
+    max-width: 80rem; /* Define a mesma largura máxima do main para alinhamento. */
+    margin: 0 auto; /* Centraliza o conteúdo. */
+    display: flex; /* Habilita o layout flexbox. */
+    align-items: center; /* Alinha os itens verticalmente ao centro. */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles. */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+.title-container {
+    display: flex; /* Habilita o layout flexbox. */
+    align-items: center; /* Alinha os itens verticalmente ao centro. */
+    gap: 1rem; /* Espaçamento entre o título e o contador. */
+    flex-wrap: wrap; /* Permite que o contador quebre a linha em telas menores. */
+    justify-content: center; /* Centraliza em telas menores quando quebra a linha. */
+}
+
+.tech-count-badge {
+    background-color: var(--border-color); /* Cor de fundo da "pílula". */
+    color: var(--secondary-color); /* Cor do texto. */
+    padding: 0.25rem 0.75rem; /* Espaçamento interno. */
+    border-radius: 1rem; /* Bordas arredondadas. */
+    font-size: 0.8rem; /* Tamanho da fonte. */
+    font-weight: 500; /* Peso da fonte. */
+    white-space: nowrap; /* Impede a quebra de linha do texto. */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: 500; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+}
+
+.search-container input {
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: 1px solid var(--tertiary-color); /* Define a borda */
+    background: var(--bg-color); /* Cor de fundo */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 30rem; /* Largura do input */
+    color: var(--secondary-color); /* Cor do texto digitado */
+}
+
+.search-container input::placeholder {
+    font-size: 1.2rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+    color: var(--tertiary-color); /* Cor do texto do placeholder */
+}
+
+.search-container input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+main {
+    flex-grow: 1; /* Faz com que o main ocupe todo o espaço vertical disponível. */
+    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    width: 100%; /* Garante que o main ocupe a largura disponível. */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    padding-top: 2rem; /* Espaçamento no topo para separar do header. */
+}
+
+.card-container {
+    display: grid; /* Usa o layout de grade. */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Cria colunas responsivas. */
+    gap: 1.5rem; /* Espaçamento entre os cards. */
+    padding: 0 1rem; /* Espaçamento nas laterais do contêiner. */
+}
+.card {
+    background: var(--card-bg-color); /* Cor de fundo do card. */
+    border: 1px solid var(--border-color); /* Borda sutil. */
+    border-radius: 8px; /* Bordas arredondadas. */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Sombra para dar profundidade. */
+    display: flex; /* Usa flexbox para o layout interno do card. */
+    flex-direction: column; /* Organiza o conteúdo em coluna. */
+    justify-content: space-between; /* Distribui o espaço entre o conteúdo e o rodapé. */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave para o hover. */
+    animation: fadeIn 0.5s ease-out forwards; /* Aplica a animação de entrada. */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Levanta o card ao passar o mouse. */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Aumenta a sombra no hover. */
+}
+
+.card-content {
+    padding: 1.5rem; /* Espaçamento interno do conteúdo. */
+}
+
+.card h2 {
+    margin-top: 0; /* Remove a margem do topo. */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    margin-bottom: 0.25rem; /* Margem inferior */
+    color: var(--primary-color); /* Cor do texto */
+}
+
+.card p {
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: var(--secondary-color); /* Cor do texto */
+}
+
+.card-description {
+    margin-bottom: 1rem; /* Margem inferior para a descrição. */
+}
+
+.card p strong {
+    color: var(--tertiary-color); /* Cor do texto em negrito */
+    font-weight: 400; /* Peso da fonte */
+}
+
+.card-tags {
+    display: flex; /* Usa flexbox para as tags. */
+    flex-wrap: wrap; /* Permite que as tags quebrem a linha. */
+    gap: 0.5rem; /* Espaçamento entre as tags. */
+    margin-top: 1rem; /* Margem no topo. */
+}
+
+.tag {
+    background-color: var(--border-color); /* Cor de fundo da tag. */
+    color: var(--secondary-color); /* Cor do texto da tag. */
+    padding: 0.25rem 0.6rem; /* Espaçamento interno. */
+    border-radius: 1rem; /* Bordas arredondadas para formar uma pílula. */
+    font-size: 0.75rem; /* Tamanho da fonte. */
+    font-weight: 500; /* Peso da fonte. */
+}
+
+.card-footer {
+    padding: 1rem 1.5rem; /* Espaçamento do rodapé do card. */
+    border-top: 1px solid var(--border-color); /* Linha separadora. */
+    text-align: right; /* Alinha o link à direita. */
+}
+
+.card-footer a {
+    color: var(--primary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 500; /* Peso da fonte */
+    transition: text-decoration 0.2s ease; /* Transição suave. */
+}
+
+.card-footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer {
+    /* O posicionamento é controlado pelo flexbox do body. */
+    width: 100%; /* Largura total */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    padding: 1rem 1.25rem; /* Espaçamento interno */
+    border-top: 1px solid var(--border-color); /* Borda superior com variável. */
+    font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.nenhum-resultado {
+    text-align: center; /* Centraliza o texto. */
+    font-size: 1.2rem; /* Tamanho da fonte. */
+    color: var(--tertiary-color); /* Cor do texto. */
+    padding: 2rem; /* Espaçamento. */
+}
+
+.footer-content {
+    width: 100%; /* Ocupa toda a largura do pai. */
+    max-width: 80rem; /* Define a mesma largura máxima do main para alinhamento. */
+    margin: 0 auto; /* Centraliza o conteúdo. */
+    display: flex; /* Habilita o layout flexbox. */
+    align-items: center; /* Alinha os itens verticalmente ao centro. */
+    justify-content: space-between; /* Coloca o copyright na esquerda e os ícones na direita. */
+    flex-wrap: wrap; /* Permite que o conteúdo quebre a linha em telas menores. */
+    gap: 1rem; /* Espaçamento entre os elementos. */
+}
+
+.footer-copyright {
+    font-size: 0.9rem; /* Tamanho da fonte para o texto de copyright. */
+    color: var(--tertiary-color); /* Cor de texto mais sutil. */
+    margin: 0; /* Remove margens padrão. */
+}
+
+.footer-socials {
+    display: flex; /* Habilita o layout flexbox para os ícones. */
+    align-items: center; /* Alinha os ícones verticalmente. */
+    gap: 1rem; /* Espaçamento entre os ícones. */
+}
+
+.footer-socials a {
+    color: var(--tertiary-color); /* Cor padrão dos ícones. */
+    transition: color 0.2s ease, transform 0.2s ease; /* Transição suave para cor e tamanho. */
+}
+
+.footer-socials a:hover {
+    color: var(--primary-color); /* Muda a cor do ícone no hover. */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do ícone no hover. */
+}
+
+@media (max-width: 768px) {
+    .header-content { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    .footer-content {
+        justify-content: center; /* Centraliza o conteúdo do rodapé em telas médias. */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    .search-container input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    .search-container input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    .search-container input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    .card h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    .search-container { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+        width: 100%; /* Ocupa toda a largura. */
+    }
+
+    .footer-content { /* Em telas pequenas, o rodapé fica em coluna. */
+        flex-direction: column; /* Organiza o conteúdo em coluna. */
+        gap: 1.5rem; /* Aumenta o espaçamento. */
+    }
+}

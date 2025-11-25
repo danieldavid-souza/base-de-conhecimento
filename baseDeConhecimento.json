@@ -1,0 +1,1347 @@
+[
+  {
+    "nome": "Javascript",
+    "descricao": "JavaScript é uma linguagem de programação fundamental para a web, sendo usada principalmente para adicionar interatividade e dinamismo a páginas da internet. Juntamente com o HTML e o CSS, ele forma a base das tecnologias da World Wide Web, permitindo a criação de elementos como menus interativos, animações e formulários dinâmicos.",
+    "ano": 1995,
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide"
+  },
+  {
+    "nome": "Python",
+    "descricao": "Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e legível, que enfatiza a simplicidade e a produtividade. É amplamente utilizada em desenvolvimento web (backend), ciência de dados, inteligência artificial, automação de scripts e desenvolvimento de software em geral, graças ao seu vasto ecossistema de bibliotecas.",
+    "ano": 1991,
+    "link": "https://docs.python.org/pt-br/3.14/"
+  },
+  {
+    "nome": "Java",
+    "descricao": "Java é uma linguagem de programação orientada a objetos, robusta e independente de plataforma, graças à sua Máquina Virtual (JVM). É uma escolha popular para o desenvolvimento de aplicações corporativas de grande escala, sistemas backend, aplicativos Android nativos e sistemas embarcados, sendo valorizada por sua segurança e performance.",
+    "ano": 1995,
+    "link": "https://docs.oracle.com/en/java/"
+  },
+  {
+    "nome": "C#",
+    "descricao": "C# (pronuncia-se 'C Sharp') é uma linguagem de programação moderna, orientada a objetos e desenvolvida pela Microsoft. É a principal linguagem do ecossistema .NET, utilizada para criar aplicações web, serviços backend, software para Windows, jogos com a engine Unity e aplicações móveis multiplataforma com Xamarin.",
+    "ano": 2000,
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+  },
+  {
+    "nome": "PHP",
+    "descricao": "PHP é uma linguagem de script do lado do servidor (server-side) projetada especificamente para o desenvolvimento web. É amplamente utilizada para criar sites dinâmicos e interativos, gerenciando conteúdo, interagindo com bancos de dados e processando formulários. Sistemas de gerenciamento de conteúdo como WordPress e Drupal são construídos com PHP.",
+    "ano": 1995,
+    "link": "https://www.php.net/manual/pt_BR/"
+  },
+  {
+    "nome": "Ruby",
+    "descricao": "Ruby é uma linguagem de programação dinâmica e de código aberto, conhecida por sua sintaxe elegante e foco na simplicidade e produtividade do desenvolvedor. É famosa principalmente pelo framework Ruby on Rails, que popularizou convenções de desenvolvimento rápido para aplicações web e startups.",
+    "ano": 1995,
+    "link": "https://www.ruby-lang.org/pt/documentation/"
+  },
+  {
+    "nome": "Go",
+    "descricao": "Go (também conhecida como Golang) é uma linguagem de programação compilada e de código aberto criada pelo Google. Foi projetada para ser simples, eficiente e confiável, com um forte suporte para concorrência (goroutines). É amplamente utilizada para desenvolvimento de microsserviços, ferramentas de linha de comando e software de rede.",
+    "ano": 2009,
+    "link": "https://go.dev/doc/"
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Swift é uma linguagem de programação moderna, segura e de alto desempenho, criada pela Apple para o desenvolvimento de aplicativos para seus sistemas operacionais, como iOS, macOS, watchOS e tvOS. Sua sintaxe é expressiva e concisa, e ela foi projetada para ser mais segura contra erros comuns de programação.",
+    "ano": 2014,
+    "link": "https://developer.apple.com/swift/documentation/"
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona tipagem estática opcional à linguagem. Ele permite que os desenvolvedores capturem erros durante o desenvolvimento, melhorem a autocompletação do código e construam aplicações JavaScript de grande escala de forma mais robusta e manutenível.",
+    "ano": 2012,
+    "link": "https://www.typescriptlang.org/docs/"
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Kotlin é uma linguagem de programação moderna, concisa e interoperável com Java, que roda na JVM. É a linguagem preferida do Google para o desenvolvimento de aplicativos Android, mas também é usada para desenvolvimento backend, web e multiplataforma, focando em segurança de nulos (null safety) e código expressivo.",
+    "ano": 2011,
+    "link": "https://kotlinlang.org/docs/home.html"
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Rust é uma linguagem de programação de sistemas focada em segurança de memória, concorrência e desempenho. Ela garante que o código seja seguro contra erros comuns, como ponteiros nulos e data races, sem a necessidade de um garbage collector. É ideal para software de baixo nível, como sistemas operacionais, drivers e motores de jogos.",
+    "ano": 2010,
+    "link": "https://doc.rust-lang.org/book/"
+  },
+  {
+    "nome": "C++",
+    "descricao": "C++ é uma linguagem de programação de propósito geral, poderosa e de alto desempenho, que estende a linguagem C com recursos de orientação a objetos. É amplamente utilizada em aplicações que exigem performance crítica, como motores de jogos, sistemas embarcados, software de renderização gráfica e computação de alto desempenho.",
+    "ano": 1985,
+    "link": "https://isocpp.org/get-started"
+  },
+  {
+    "nome": "Dart",
+    "descricao": "Dart é uma linguagem de programação otimizada para a criação de interfaces de usuário rápidas e responsivas em qualquer plataforma. Desenvolvida pelo Google, é a linguagem por trás do framework Flutter, permitindo o desenvolvimento de aplicativos móveis, web e desktop a partir de uma única base de código.",
+    "ano": 2011,
+    "link": "https://dart.dev/guides"
+  },
+  {
+    "nome": "React",
+    "descricao": "React é uma biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário (UI) interativas e reutilizáveis. Mantida pelo Facebook (Meta), ela permite a criação de Single-Page Applications (SPAs) onde os componentes da UI são atualizados de forma performática em resposta a mudanças de estado.",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "frontend",
+      "biblioteca",
+      "interface de usuário",
+      "framework"
+    ]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Angular é um framework de desenvolvimento web completo, mantido pelo Google, para a criação de aplicações de página única (SPAs) robustas e escaláveis. Ele utiliza TypeScript e segue uma arquitetura baseada em componentes, oferecendo uma estrutura opinativa com ferramentas integradas para roteamento, gerenciamento de estado e mais.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "tags": [
+      "frontend",
+      "framework",
+      "SPA",
+      "Google"
+    ]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Vue.js é um framework JavaScript progressivo para a construção de interfaces de usuário, conhecido por sua curva de aprendizado suave, simplicidade e flexibilidade. Ele pode ser adotado gradualmente, desde a criação de pequenos componentes interativos até o desenvolvimento de aplicações de página única complexas.",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "tags": [
+      "frontend",
+      "framework",
+      "MVVM",
+      "web development"
+    ]
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Node.js é um ambiente de execução que permite executar código JavaScript no lado do servidor. Baseado no motor V8 do Google Chrome, ele utiliza um modelo de I/O não bloqueante e orientado a eventos, o que o torna ideal para construir aplicações de rede escaláveis, como APIs, microsserviços e sistemas em tempo real.",
+    "data_criacao": "2009",
+    "link": "https://nodejs.org/",
+    "tags": [
+      "runtime",
+      "backend",
+      "servidor",
+      "plataforma"
+    ]
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Spring Boot é uma extensão do framework Spring que simplifica drasticamente a criação de aplicações Java autônomas e prontas para produção. Ele elimina a necessidade de configurações complexas, oferecendo uma abordagem opinativa para construir microsserviços e aplicações web robustas de forma rápida e eficiente.",
+    "data_criacao": "2014",
+    "link": "https://spring.io/projects/spring-boot",
+    "tags": [
+      "framework",
+      "backend",
+      "Java Ecosystem",
+      "microservices"
+    ]
+  },
+  {
+    "nome": "Django",
+    "descricao": "Django é um framework web de alto nível para Python que incentiva o desenvolvimento rápido e um design limpo e pragmático. Ele segue o princípio 'Don't Repeat Yourself' (DRY) e inclui um ORM poderoso, um painel de administração automático e um sistema de roteamento, sendo ideal para projetos complexos e orientados a dados.",
+    "data_criacao": "2005",
+    "link": "https://www.djangoproject.com/",
+    "tags": [
+      "web framework",
+      "backend",
+      "ORM",
+      "full-stack"
+    ]
+  },
+  {
+    "nome": "Flask",
+    "descricao": "Flask é um microframework para Python, conhecido por sua leveza e simplicidade. Ele fornece as ferramentas essenciais para o desenvolvimento web sem impor uma estrutura rígida, sendo uma excelente escolha para a criação de APIs, microsserviços e aplicações web menores onde a flexibilidade é uma prioridade.",
+    "data_criacao": "2010",
+    "link": "https://flask.palletsprojects.com/",
+    "tags": [
+      "microframework",
+      "backend",
+      "API",
+      "leve"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "MongoDB é um banco de dados NoSQL orientado a documentos, projetado para oferecer alta performance, disponibilidade e escalabilidade. Ele armazena dados em documentos flexíveis, semelhantes a JSON (BSON), permitindo que as estruturas de dados evoluam ao longo do tempo, sendo ideal para aplicações modernas e Big Data.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "banco de dados",
+      "NoSQL",
+      "documentos",
+      "armazenamento de dados"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "PostgreSQL é um poderoso sistema de gerenciamento de banco de dados objeto-relacional de código aberto, conhecido por sua robustez, conformidade com o padrão SQL e recursos avançados. Ele suporta tipos de dados complexos, transações ACID e alta concorrência, sendo uma escolha confiável para aplicações críticas e complexas.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "tags": [
+      "banco de dados",
+      "relacional",
+      "SQL",
+      "open source"
+    ]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Docker é uma plataforma de código aberto que automatiza a implantação, o dimensionamento e a gestão de aplicações dentro de contêineres. Ele empacota uma aplicação e suas dependências em uma unidade isolada e portátil, garantindo que ela funcione de forma consistente em qualquer ambiente, do desenvolvimento à produção.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "tags": [
+      "containerização",
+      "devops",
+      "virtualização",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Kubernetes",
+    "descricao": "Kubernetes (também conhecido como K8s) é um sistema de orquestração de contêineres de código aberto, originalmente criado pelo Google. Ele automatiza a implantação, o escalonamento e o gerenciamento de aplicações em contêineres, garantindo alta disponibilidade, balanceamento de carga e recuperação automática de falhas em clusters de servidores.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "tags": [
+      "orquestração",
+      "devops",
+      "cloud computing",
+      "containerização"
+    ]
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "AWS Lambda é um serviço de computação serverless (sem servidor) da Amazon Web Services. Ele permite que você execute código em resposta a eventos, como requisições HTTP ou alterações em um banco de dados, sem precisar provisionar ou gerenciar servidores. Você paga apenas pelo tempo de computação que consome.",
+    "data_criacao": "2014",
+    "link": "https://aws.amazon.com/lambda/",
+    "tags": [
+      "serverless",
+      "cloud computing",
+      "FaaS",
+      "AWS"
+    ]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Terraform é uma ferramenta de Infraestrutura como Código (IaC) de código aberto, criada pela HashiCorp. Ela permite que desenvolvedores e operadores de sistemas definam e provisionem a infraestrutura de data centers (como servidores, redes e bancos de dados) usando uma linguagem de configuração declarativa, de forma segura e repetível.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "tags": [
+      "IaC",
+      "devops",
+      "cloud",
+      "automatização"
+    ]
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Svelte é uma abordagem radicalmente nova para a construção de interfaces de usuário. Enquanto frameworks tradicionais como React e Vue fazem a maior parte do seu trabalho no navegador, Svelte converte seu código em JavaScript otimizado durante o processo de compilação, resultando em aplicações mais rápidas e leves.",
+    "data_criacao": "2016",
+    "link": "https://svelte.dev/",
+    "tags": [
+      "framework",
+      "frontend",
+      "compilador",
+      "performance"
+    ]
+  },
+  {
+    "nome": "Apache Kafka",
+    "descricao": "Apache Kafka é uma plataforma de streaming de eventos distribuída, de código aberto, usada para construir pipelines de dados em tempo real e aplicações de streaming. Ele é projetado para lidar com altos volumes de dados, permitindo a publicação, o armazenamento e o consumo de fluxos de registros de forma tolerante a falhas e escalável.",
+    "data_criacao": "2011",
+    "link": "https://kafka.apache.org/",
+    "tags": [
+      "streaming",
+      "data pipeline",
+      "mensageria",
+      "apache"
+    ]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "GraphQL é uma linguagem de consulta para APIs e um runtime para executar essas consultas com seus dados existentes. Desenvolvida pelo Facebook, ela permite que os clientes solicitem exatamente os dados de que precisam, nada mais, nada menos, tornando as APIs mais flexíveis, eficientes e fáceis de evoluir.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "tags": [
+      "API",
+      "linguagem de consulta",
+      "backend",
+      "dados"
+    ]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Redis é um armazenamento de estrutura de dados em memória, de código aberto, usado como banco de dados, cache e intermediário de mensagens (message broker). Conhecido por sua velocidade excepcional, ele suporta diversas estruturas de dados, como strings, hashes, listas e sets, sendo ideal para aplicações que exigem baixa latência.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "tags": [
+      "banco de dados",
+      "cache",
+      "NoSQL",
+      "in-memory"
+    ]
+  },
+  {
+    "nome": "Next.js",
+    "descricao": "Next.js é um framework React para produção que oferece uma estrutura robusta para a criação de aplicações web modernas. Ele habilita funcionalidades como renderização do lado do servidor (SSR) e geração de sites estáticos (SSG) por padrão, melhorando o SEO e a performance, além de simplificar o roteamento e a divisão de código.",
+    "data_criacao": "2016",
+    "link": "https://nextjs.org/",
+    "tags": [
+      "framework",
+      "frontend",
+      "SSR",
+      "full-stack",
+      "React Ecosystem"
+    ]
+  },
+  {
+    "nome": "NestJS",
+    "descricao": "NestJS é um framework progressivo para a construção de aplicações do lado do servidor (backend) eficientes, escaláveis e confiáveis com Node.js. Ele utiliza TypeScript e é fortemente inspirado na arquitetura do Angular, promovendo o uso de modularidade, injeção de dependência e padrões de design sólidos.",
+    "data_criacao": "2017",
+    "link": "https://nestjs.com/",
+    "tags": [
+      "framework",
+      "backend",
+      "arquitetura",
+      "serviços"
+    ]
+  },
+  {
+    "nome": "SQL",
+    "descricao": "SQL (Structured Query Language) é uma linguagem de domínio específico projetada para gerenciar e manipular dados em sistemas de gerenciamento de banco de dados relacional (RDBMS). É o padrão universal para consultar, inserir, atualizar e deletar dados, além de definir e modificar a estrutura do banco de dados.",
+    "data_criacao": "1974",
+    "link": "https://en.wikipedia.org/wiki/SQL",
+    "tags": [
+      "linguagem",
+      "banco de dados",
+      "relacional",
+      "consulta"
+    ]
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Jenkins é um servidor de automação de código aberto que ajuda a automatizar as partes do desenvolvimento de software relacionadas à construção, teste e implantação. É uma ferramenta fundamental para práticas de Integração Contínua (CI) e Entrega Contínua (CD), permitindo que as equipes entreguem software de forma mais rápida e confiável.",
+    "data_criacao": "2011",
+    "link": "https://www.jenkins.io/",
+    "tags": [
+      "CI/CD",
+      "devops",
+      "automação",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Prometheus",
+    "descricao": "Prometheus é um sistema de monitoramento e alerta de código aberto, originalmente desenvolvido na SoundCloud. Ele coleta e armazena métricas como séries temporais, ou seja, informações com carimbo de tempo, sendo altamente eficaz para monitorar a saúde e a performance de microsserviços e infraestrutura dinâmica.",
+    "data_criacao": "2012",
+    "link": "https://prometheus.io/",
+    "tags": [
+      "monitoramento",
+      "devops",
+      "observabilidade",
+      "alerta"
+    ]
+  },
+  {
+    "nome": "Git",
+    "descricao": "Git é um sistema de controle de versão distribuído, de código aberto, projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência. Ele permite que múltiplos desenvolvedores trabalhem em um mesmo projeto simultaneamente, rastreando todas as alterações no código e facilitando a colaboração.",
+    "data_criacao": "2005",
+    "link": "https://git-scm.com/",
+    "tags": [
+      "controle de versão",
+      "ferramenta",
+      "colaboração",
+      "desenvolvimento"
+    ]
+  },
+  {
+    "nome": "HTML5",
+    "descricao": "HTML5 é a quinta e mais recente versão da linguagem de marcação padrão para a criação de páginas web. Ele introduziu novas tags semânticas (como `<article>`, `<header>`, `<footer>`), suporte nativo para áudio e vídeo, e APIs para funcionalidades complexas como armazenamento local e gráficos 2D, tornando a web mais rica e interativa.",
+    "data_criacao": "2014",
+    "link": "https://html.spec.whatwg.org/",
+    "tags": [
+      "markup",
+      "frontend",
+      "web standard",
+      "estrutura"
+    ]
+  },
+  {
+    "nome": "CSS3",
+    "descricao": "CSS3 é a mais recente evolução do padrão de folhas de estilo em cascata (Cascading Style Sheets), usada para descrever a apresentação visual de documentos HTML. Ele trouxe recursos poderosos como Flexbox, Grid, animações, transições e media queries, permitindo a criação de layouts responsivos e designs complexos de forma mais simples.",
+    "data_criacao": "1999",
+    "link": "https://www.w3.org/Style/CSS/",
+    "tags": [
+      "estilização",
+      "frontend",
+      "design",
+      "web standard"
+    ]
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "Flutter é um kit de ferramentas de UI (Interface de Usuário) de código aberto, criado pelo Google, para construir aplicativos bonitos e compilados nativamente para mobile, web e desktop a partir de uma única base de código. Utilizando a linguagem Dart, ele permite um desenvolvimento rápido com seu recurso de 'hot reload'.",
+    "data_criacao": "2017",
+    "link": "https://flutter.dev/docs",
+    "tags": [
+      "framework",
+      "mobile",
+      "frontend",
+      "cross-platform",
+      "Google"
+    ]
+  },
+  {
+    "nome": "FastAPI",
+    "descricao": "FastAPI é um framework web moderno e de alta performance para Python, projetado para construir APIs de forma rápida e eficiente. Ele utiliza dicas de tipo (type hints) do Python para fornecer validação automática de dados, serialização e geração de documentação interativa, combinando a simplicidade do Flask com recursos avançados.",
+    "data_criacao": "2018",
+    "link": "https://fastapi.tiangolo.com/",
+    "tags": [
+      "framework",
+      "backend",
+      "API",
+      "Python"
+    ]
+  },
+  {
+    "nome": "GitHub Actions",
+    "descricao": "GitHub Actions é uma plataforma de automação de fluxo de trabalho integrada diretamente ao GitHub. Ela permite automatizar tarefas de desenvolvimento, como construir, testar e implantar código (CI/CD), diretamente do seu repositório. Os fluxos de trabalho são definidos em arquivos YAML e podem ser acionados por eventos do GitHub.",
+    "data_criacao": "2018",
+    "link": "https://docs.github.com/pt/actions",
+    "tags": [
+      "CI/CD",
+      "devops",
+      "automação",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Postman",
+    "descricao": "Postman é uma plataforma de colaboração para o desenvolvimento de APIs, amplamente utilizada por desenvolvedores para projetar, construir, testar e documentar APIs. Ele oferece uma interface gráfica intuitiva para enviar requisições HTTP, organizar testes e automatizar fluxos de trabalho de API.",
+    "data_criacao": "2012",
+    "link": "https://learning.postman.com/docs/getting-started/introduction/",
+    "tags": [
+      "ferramenta",
+      "API",
+      "teste",
+      "desenvolvimento"
+    ]
+  },
+  {
+    "nome": "MySQL",
+    "descricao": "MySQL é um dos sistemas de gerenciamento de banco de dados relacional (RDBMS) de código aberto mais populares do mundo. É amplamente utilizado em aplicações web, especialmente em conjunto com a linguagem PHP (formando a pilha LAMP), sendo conhecido por sua confiabilidade, facilidade de uso e bom desempenho.",
+    "data_criacao": "1995",
+    "link": "https://dev.mysql.com/doc/",
+    "tags": [
+      "banco de dados",
+      "relacional",
+      "SQL",
+      "open source"
+    ]
+  },
+  {
+    "nome": "Elixir",
+    "descricao": "Elixir é uma linguagem de programação funcional, concorrente e dinâmica, projetada para construir aplicações escaláveis e de fácil manutenção. Ela roda na máquina virtual Erlang (BEAM), herdando sua capacidade de criar sistemas distribuídos e tolerantes a falhas, sendo ideal para aplicações web de baixa latência e alta concorrência.",
+    "data_criacao": "2011",
+    "link": "https://elixir-lang.org",
+    "tags": [
+      "Linguagem de Programação",
+      "Funcional",
+      "Backend",
+      "Concorrência"
+    ]
+  },
+  {
+    "nome": "SolidJS",
+    "descricao": "SolidJS é uma biblioteca JavaScript declarativa para criar interfaces de usuário, conhecida por sua performance excepcional. Ela alcança essa velocidade ao evitar o uso de um Virtual DOM, compilando templates em nós DOM reais e atualizando-os com reatividade granular e de alta precisão.",
+    "data_criacao": "2018",
+    "link": "https://www.solidjs.com",
+    "tags": [
+      "Framework Frontend",
+      "Reatividade",
+      "Performance",
+      "Biblioteca"
+    ]
+  },
+  {
+    "nome": "Apache Cassandra",
+    "descricao": "Apache Cassandra é um banco de dados NoSQL distribuído, de código aberto, projetado para gerenciar grandes volumes de dados em múltiplos servidores, sem um único ponto de falha. Sua arquitetura garante alta disponibilidade e escalabilidade linear, sendo ideal para aplicações que precisam estar sempre online.",
+    "data_criacao": "2008",
+    "link": "https://cassandra.apache.org",
+    "tags": [
+      "Banco de Dados NoSQL",
+      "Distribuição",
+      "Big Data",
+      "Sistema de Arquivos"
+    ]
+  },
+  {
+    "nome": "Blazor",
+    "descricao": "Blazor é um framework da Microsoft para a construção de interfaces de usuário web interativas usando C# em vez de JavaScript. Ele permite que desenvolvedores .NET criem aplicações web ricas que podem rodar tanto no lado do servidor quanto no lado do cliente, através do padrão WebAssembly.",
+    "data_criacao": "2018",
+    "link": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor",
+    "tags": [
+      "Framework Web",
+      ".NET",
+      "C#",
+      "WebAssembly",
+      "Frontend"
+    ]
+  },
+  {
+    "nome": "Puppet",
+    "descricao": "Puppet é uma ferramenta de gerenciamento de configuração que ajuda administradores de sistemas a automatizar o provisionamento, a configuração e o gerenciamento de servidores. Ele utiliza uma linguagem declarativa para descrever o estado desejado da infraestrutura, garantindo consistência e repetibilidade.",
+    "data_criacao": "2005",
+    "link": "https://puppet.com",
+    "tags": [
+      "DevOps",
+      "Gerenciamento de Configuração",
+      "Automação",
+      "Infraestrutura como Código"
+    ]
+  },
+  {
+    "nome": "Apache Spark",
+    "descricao": "Apache Spark é um motor de processamento de dados unificado e de alta velocidade para análise de dados em larga escala. Ele oferece APIs em Java, Scala, Python e R, e é amplamente utilizado em pipelines de Big Data e Machine Learning para processamento em lote, streaming, SQL e análise de grafos.",
+    "data_criacao": "2014",
+    "link": "https://spark.apache.org",
+    "tags": [
+      "Big Data",
+      "Processamento de Dados",
+      "Análise",
+      "Framework"
+    ]
+  },
+  {
+    "nome": "WebAssembly",
+    "descricao": "WebAssembly (Wasm) é um formato de instrução binária para uma máquina virtual baseada em pilha. Ele foi projetado como um alvo de compilação portátil para linguagens de programação de alto nível como C, C++ e Rust, permitindo a execução de código de alta performance em navegadores web e outros ambientes.",
+    "data_criacao": "2017",
+    "link": "https://webassembly.org",
+    "tags": [
+      "Padrão Web",
+      "Performance",
+      "Compilação",
+      "Runtime"
+    ]
+  },
+  {
+    "nome": "Astro",
+    "descricao": "Astro é um framework web moderno focado na construção de sites rápidos e orientados a conteúdo. Sua principal característica é a 'arquitetura de ilhas', que envia zero JavaScript para o navegador por padrão, hidratando componentes interativos individualmente, resultando em tempos de carregamento muito mais rápidos.",
+    "data_criacao": "2021",
+    "link": "https://astro.build",
+    "tags": [
+      "Framework Web",
+      "Frontend",
+      "Performance",
+      "Conteúdo Estático"
+    ]
+  },
+  {
+    "nome": "gRPC",
+    "descricao": "gRPC é um framework de código aberto de alto desempenho para Chamada de Procedimento Remoto (RPC), desenvolvido pelo Google. Ele utiliza HTTP/2 para transporte e Protocol Buffers como linguagem de definição de interface, permitindo uma comunicação eficiente e robusta entre microsserviços em diferentes linguagens.",
+    "data_criacao": "2015",
+    "link": "https://grpc.io",
+    "tags": [
+      "Protocolo",
+      "Comunicação",
+      "Microserviços",
+      "RPC",
+      "Backend"
+    ]
+  },
+  {
+    "nome": "Phoenix",
+    "descricao": "Phoenix é um framework web construído em Elixir que aproveita a alta concorrência e a baixa latência da máquina virtual Erlang (BEAM). Ele combina a produtividade de frameworks como Ruby on Rails com um desempenho excepcional, sendo ideal para a construção de aplicações em tempo real, como chats e APIs escaláveis.",
+    "data_criacao": "2014",
+    "link": "https://www.phoenixframework.org",
+    "tags": [
+      "Framework Web",
+      "Elixir",
+      "Backend",
+      "Concorrência"
+    ]
+  },
+  {
+    "nome": "GitLab CI",
+    "descricao": "GitLab CI/CD é uma ferramenta integrada à plataforma GitLab para automatizar os processos de construção, teste e implantação de software (Integração e Entrega Contínua). Os pipelines são configurados através de um arquivo `.gitlab-ci.yml` no repositório, facilitando a automação do ciclo de vida do desenvolvimento.",
+    "data_criacao": "2014",
+    "link": "https://docs.gitlab.com/ee/ci",
+    "tags": [
+      "CI/CD",
+      "DevOps",
+      "Automação",
+      "Pipeline"
+    ]
+  },
+  {
+    "nome": "Neo4j",
+    "descricao": "Neo4j é o banco de dados de grafos NoSQL mais popular, projetado para armazenar e consultar dados conectados de forma eficiente. Ele modela dados em nós e relacionamentos, sendo ideal para casos de uso como redes sociais, sistemas de recomendação e detecção de fraudes, onde as conexões entre os dados são fundamentais.",
+    "data_criacao": "2007",
+    "link": "https://neo4j.com",
+    "tags": [
+      "Banco de Dados NoSQL",
+      "Grafo",
+      "Gerenciamento de Dados"
+    ]
+  },
+  {
+    "nome": "Ansible",
+    "descricao": "Ansible é uma plataforma de automação de código aberto que simplifica o gerenciamento de configuração, o provisionamento de software e a implantação de aplicações. Sua abordagem sem agentes (agentless) e o uso de arquivos YAML tornam a automação de infraestrutura mais acessível e fácil de gerenciar.",
+    "data_criacao": "2012",
+    "link": "https://www.ansible.com",
+    "tags": [
+      "DevOps",
+      "Automação",
+      "Provisionamento",
+      "Gerenciamento de Configuração"
+    ]
+  },
+  {
+    "nome": "CockroachDB",
+    "descricao": "CockroachDB é um banco de dados distribuído SQL de código aberto, projetado para ser resiliente, consistente e escalável horizontalmente. Ele sobrevive a falhas de disco, máquina, rack e até mesmo de data center, oferecendo a familiaridade do SQL com os benefícios de uma arquitetura nativa da nuvem.",
+    "data_criacao": "2015",
+    "link": "https://www.cockroachlabs.com",
+    "tags": [
+      "Banco de Dados",
+      "SQL Distribuído",
+      "Cloud Native",
+      "Tolerância a Falhas"
+    ]
+  },
+  {
+    "nome": "Haskell",
+    "descricao": "Haskell é uma linguagem de programação puramente funcional, conhecida por seu sistema de tipos forte e estático, avaliação preguiçosa (lazy evaluation) e foco em imutabilidade. É amplamente utilizada em ambientes acadêmicos e industriais para a construção de software robusto, conciso e livre de efeitos colaterais.",
+    "data_criacao": "1990",
+    "link": "https://www.haskell.org",
+    "tags": [
+      "Linguagem de Programação",
+      "Funcional",
+      "Acadêmico",
+      "Backend"
+    ]
+  },
+  {
+    "nome": "Julia",
+    "descricao": "Julia é uma linguagem de programação dinâmica de alto nível e alto desempenho, projetada para computação científica e análise numérica. Ela combina a facilidade de uso de linguagens como Python com a velocidade de linguagens compiladas como C, sendo uma escolha poderosa para cientistas de dados e engenheiros.",
+    "data_criacao": "2012",
+    "link": "https://julialang.org",
+    "tags": [
+      "Linguagem de Programação",
+      "Ciência de Dados",
+      "Performance",
+      "Computação Científica"
+    ]
+  },
+  {
+    "nome": "Consul",
+    "descricao": "Consul é uma ferramenta da HashiCorp para descoberta de serviços (service discovery), verificação de integridade e armazenamento de chave/valor em ambientes distribuídos. Em uma arquitetura de microsserviços, ele ajuda os serviços a se encontrarem e a se comunicarem de forma confiável, além de gerenciar configurações.",
+    "data_criacao": "2014",
+    "link": "https://www.consul.io",
+    "tags": [
+      "Microserviços",
+      "DevOps",
+      "Service Mesh",
+      "HashiCorp"
+    ]
+  },
+  {
+    "nome": "Clojure",
+    "descricao": "Clojure é um dialeto moderno da linguagem Lisp, projetado para ser uma linguagem de programação funcional, dinâmica e concorrente. Ele roda na Máquina Virtual Java (JVM), o que lhe dá acesso ao vasto ecossistema Java, e enfatiza a imutabilidade e o desenvolvimento interativo para criar sistemas robustos.",
+    "data_criacao": "2007",
+    "link": "https://clojure.org",
+    "tags": [
+      "Linguagem de Programação",
+      "Lisp",
+      "Funcional",
+      "JVM"
+    ]
+  },
+  {
+    "nome": "Chef",
+    "descricao": "Chef é uma plataforma de automação que transforma a infraestrutura em código (IaC). Usando 'receitas' e 'livros de receitas' escritos em Ruby, ela permite automatizar como a infraestrutura é configurada, implantada e gerenciada, garantindo consistência e conformidade em ambientes de qualquer escala.",
+    "data_criacao": "2009",
+    "link": "https://www.chef.io",
+    "tags": [
+      "DevOps",
+      "IaC",
+      "Gerenciamento de Configuração",
+      "Automação"
+    ]
+  },
+  {
+    "nome": "Couchbase",
+    "descricao": "Couchbase é um banco de dados NoSQL distribuído que combina a flexibilidade de um banco de dados de documentos com a velocidade de um cache em memória. Ele oferece alta performance, baixa latência e escalabilidade, sendo uma escolha popular para aplicações interativas que precisam de respostas rápidas.",
+    "data_criacao": "2010",
+    "link": "https://www.couchbase.com",
+    "tags": [
+      "Banco de Dados NoSQL",
+      "Documentos",
+      "Cache",
+      "Distribuição"
+    ]
+  },
+  {
+    "nome": "Helm",
+    "descricao": "Helm é conhecido como 'o gerenciador de pacotes para Kubernetes'. Ele simplifica a implantação e o gerenciamento de aplicações em clusters Kubernetes, permitindo que os desenvolvedores empacotem suas aplicações em 'Charts' reutilizáveis, que podem ser facilmente instalados, atualizados e compartilhados.",
+    "data_criacao": "2016",
+    "link": "https://helm.sh",
+    "tags": [
+      "Kubernetes",
+      "DevOps",
+      "Gerenciamento de Pacotes",
+      "Cloud Native"
+    ]
+  },
+  {
+    "nome": "Cloudflare Workers",
+    "descricao": "Cloudflare Workers é uma plataforma de computação serverless que permite executar código (JavaScript, Rust, C++) na rede de borda (edge) global da Cloudflare. Isso permite a criação de aplicações extremamente rápidas, pois o código é executado fisicamente perto do usuário final, reduzindo a latência.",
+    "data_criacao": "2017",
+    "link": "https://workers.cloudflare.com",
+    "tags": [
+      "Serverless",
+      "Edge Computing",
+      "Cloud",
+      "CDN"
+    ]
+  },
+  {
+    "nome": "Scala",
+    "descricao": "Scala é uma linguagem de programação que combina de forma elegante os paradigmas orientado a objetos e funcional. Rodando na JVM, ela é totalmente interoperável com Java e é conhecida por sua sintaxe concisa e sistema de tipos poderoso. É amplamente utilizada em sistemas de Big Data, com frameworks como Apache Spark.",
+    "data_criacao": "2004",
+    "link": "https://www.scala-lang.org",
+    "tags": [
+      "Linguagem de Programação",
+      "JVM",
+      "Funcional",
+      "Backend",
+      "Big Data"
+    ]
+  },
+  {
+    "nome": "Zig",
+    "descricao": "Zig é uma linguagem de programação de sistemas de propósito geral, focada em robustez, otimização e manutenibilidade. Ela visa ser uma alternativa moderna ao C, oferecendo controle de baixo nível sobre a memória, mas com um sistema de tipos mais seguro e ferramentas de compilação mais poderosas.",
+    "data_criacao": "2016",
+    "link": "https://ziglang.org",
+    "tags": [
+      "Linguagem de Programação",
+      "Baixo Nível",
+      "Compilação",
+      "Sistema"
+    ]
+  },
+  {
+    "nome": "Keras",
+    "descricao": "Keras é uma API de alto nível para redes neurais, escrita em Python e capaz de rodar sobre TensorFlow, Theano ou CNTK. Ela foi desenvolvida com foco em permitir uma experimentação rápida, sendo conhecida por sua simplicidade, flexibilidade e interface amigável para a construção e treinamento de modelos de deep learning.",
+    "data_criacao": "2015",
+    "link": "https://keras.io",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning",
+      "Framework",
+      "Ciência de Dados"
+    ]
+  },
+  {
+    "nome": "Deno",
+    "descricao": "Deno é um runtime moderno e seguro para JavaScript e TypeScript, criado pelo desenvolvedor original do Node.js, Ryan Dahl. Ele se destaca por sua segurança por padrão (sem acesso a arquivos ou rede, a menos que explicitamente permitido), suporte nativo a TypeScript e um conjunto de ferramentas padrão integrado.",
+    "data_criacao": "2018",
+    "link": "https://deno.land/",
+    "tags": [
+      "runtime",
+      "backend",
+      "typescript",
+      "seguranca"
+    ]
+  },
+  {
+    "nome": "Vite",
+    "descricao": "Vite é uma ferramenta de build e servidor de desenvolvimento frontend que proporciona uma experiência de desenvolvimento extremamente rápida. Ele utiliza os módulos ES nativos do navegador para servir o código, o que resulta em um tempo de inicialização de servidor quase instantâneo e atualizações em tempo real (HMR) muito velozes.",
+    "data_criacao": "2020",
+    "link": "https://vitejs.dev/",
+    "tags": [
+      "buildtool",
+      "frontend",
+      "javascript",
+      "desenvolvimento"
+    ]
+  },
+  {
+    "nome": "Tailwind CSS",
+    "descricao": "Tailwind CSS é um framework CSS 'utility-first' que permite construir designs personalizados de forma rápida, sem sair do HTML. Em vez de classes pré-definidas como `.card` ou `.button`, ele fornece blocos de construção de baixo nível (como `flex`, `pt-4`, `text-center`) que podem ser combinados para criar qualquer design.",
+    "data_criacao": "2017",
+    "link": "https://tailwindcss.com/",
+    "tags": [
+      "css",
+      "framework",
+      "frontend",
+      "design"
+    ]
+  },
+  {
+    "nome": "Supabase",
+    "descricao": "Supabase é uma alternativa de código aberto ao Firebase. Ele oferece um Backend-as-a-Service (BaaS) completo, fornecendo aos desenvolvedores um banco de dados PostgreSQL, autenticação, armazenamento de arquivos, APIs geradas automaticamente e funções serverless, tudo com uma interface amigável e escalável.",
+    "data_criacao": "2020",
+    "link": "https://supabase.com/",
+    "tags": [
+      "baas",
+      "banco de dados",
+      "backend",
+      "servicos em nuvem"
+    ]
+  },
+  {
+    "nome": "Prisma",
+    "descricao": "Prisma é um ORM (Object-Relational Mapper) de próxima geração para Node.js e TypeScript. Ele simplifica a interação com bancos de dados, permitindo que os desenvolvedores definam seu esquema de dados em um arquivo e obtenham um cliente de banco de dados totalmente seguro em tipos (type-safe) para realizar consultas.",
+    "data_criacao": "2018",
+    "link": "https://www.prisma.io/",
+    "tags": [
+      "orm",
+      "banco de dados",
+      "typescript",
+      "backend"
+    ]
+  },
+  {
+    "nome": "PyTorch",
+    "descricao": "PyTorch é um framework de código aberto para aprendizado de máquina, desenvolvido pelo laboratório de IA do Facebook. É amplamente utilizado para aplicações como visão computacional e processamento de linguagem natural, sendo conhecido por sua flexibilidade, interface Pythonica e forte suporte para aceleração por GPU.",
+    "data_criacao": "2016",
+    "link": "https://pytorch.org/",
+    "tags": [
+      "machine learning",
+      "ia",
+      "framework",
+      "deep learning"
+    ]
+  },
+  {
+    "nome": "RabbitMQ",
+    "descricao": "RabbitMQ é um dos mais populares message brokers (intermediários de mensagens) de código aberto. Ele implementa o protocolo AMQP e é usado para desacoplar sistemas, permitindo uma comunicação assíncrona e confiável entre diferentes partes de uma aplicação ou entre microsserviços distribuídos.",
+    "data_criacao": "2007",
+    "link": "https://www.rabbitmq.com/",
+    "tags": [
+      "message broker",
+      "microsservicos",
+      "messaging",
+      "devops"
+    ]
+  },
+  {
+    "nome": "Vercel",
+    "descricao": "Vercel é uma plataforma de nuvem projetada para otimizar a experiência de desenvolvimento e deployment de aplicações frontend. Criada pelos mantenedores do Next.js, ela oferece CI/CD integrado, uma CDN global, funções serverless e de borda (edge), tudo com foco em alta performance e escalabilidade.",
+    "data_criacao": "2015",
+    "link": "https://vercel.com/",
+    "tags": [
+      "cloud",
+      "deployment",
+      "ci/cd",
+      "frontend"
+    ]
+  },
+  {
+    "nome": "Nuxt",
+    "descricao": "Nuxt é um framework de código aberto construído sobre o Vue.js, projetado para criar aplicações web universais e de alto desempenho. Ele simplifica o desenvolvimento de aplicações com renderização do lado do servidor (SSR), geração de sites estáticos (SSG) e uma estrutura de diretórios opinativa que melhora a produtividade.",
+    "data_criacao": "2016",
+    "link": "https://nuxt.com/",
+    "tags": [
+      "framework",
+      "frontend",
+      "vue",
+      "ssr",
+      "fullstack"
+    ]
+  },
+  {
+    "nome": "Express.js",
+    "descricao": "Express.js é um framework minimalista e flexível para Node.js, considerado o padrão de fato para a construção de aplicações web e APIs. Ele fornece um conjunto robusto de recursos para aplicações web e móveis, sem obscurecer as funcionalidades do Node.js, sendo a base de inúmeras outras ferramentas e frameworks.",
+    "data_criacao": "2010",
+    "link": "https://expressjs.com/",
+    "tags": [
+      "framework",
+      "backend",
+      "javascript",
+      "api"
+    ]
+  },
+  {
+    "nome": "Expo",
+    "descricao": "Expo é uma plataforma de código aberto e um conjunto de ferramentas construídas sobre o React Native que simplificam o desenvolvimento de aplicativos móveis universais. Ele permite criar, construir e implantar aplicativos para iOS e Android a partir da mesma base de código JavaScript, sem precisar escrever código nativo.",
+    "data_criacao": "2015",
+    "link": "https://expo.dev/",
+    "tags": [
+      "mobile",
+      "react native",
+      "ferramenta",
+      "framework"
+    ]
+  },
+  {
+    "nome": "Selenium",
+    "descricao": "Selenium é um conjunto de ferramentas de código aberto para automação de navegadores web. É amplamente utilizado para testes automatizados de aplicações web, permitindo que os desenvolvedores escrevam scripts em várias linguagens (como Java, Python e C#) para simular a interação do usuário com o navegador.",
+    "data_criacao": "2004",
+    "link": "https://www.selenium.dev/",
+    "tags": [
+      "automacao",
+      "testes",
+      "qa",
+      "web"
+    ]
+  },
+  {
+    "nome": "Jupyter",
+    "descricao": "Jupyter é um projeto de software de código aberto que suporta computação interativa em dezenas de linguagens de programação. Sua ferramenta mais conhecida, o Jupyter Notebook, é um ambiente web que permite criar e compartilhar documentos contendo código, equações, visualizações e texto narrativo.",
+    "data_criacao": "2014",
+    "link": "https://jupyter.org/",
+    "tags": [
+      "data science",
+      "notebook",
+      "ferramenta",
+      "analise de dados"
+    ]
+  },
+  {
+    "nome": "MariaDB",
+    "descricao": "MariaDB é um sistema de gerenciamento de banco de dados relacional de código aberto, criado pelos desenvolvedores originais do MySQL. Ele é um 'fork' que mantém alta compatibilidade com o MySQL, ao mesmo tempo que introduz novos recursos, melhorias de performance e um modelo de governança mais aberto.",
+    "data_criacao": "2009",
+    "link": "https://mariadb.org/",
+    "tags": [
+      "banco de dados",
+      "relacional",
+      "sql",
+      "opensource"
+    ]
+  },
+  {
+    "nome": "Hadoop",
+    "descricao": "Apache Hadoop é um framework de código aberto para armazenamento e processamento distribuído de grandes conjuntos de dados (Big Data) em clusters de computadores. Seu ecossistema, incluindo o HDFS para armazenamento e o MapReduce para processamento, foi fundamental para a popularização do Big Data.",
+    "data_criacao": "2006",
+    "link": "https://hadoop.apache.org/",
+    "tags": [
+      "big data",
+      "distribuido",
+      "armazenamento",
+      "framework"
+    ]
+  },
+  {
+    "nome": "Zustand",
+    "descricao": "Zustand é uma biblioteca de gerenciamento de estado para React, pequena, rápida e escalável. Ela se destaca por sua simplicidade, utilizando hooks para criar um estado centralizado com um mínimo de código (boilerplate), tornando o gerenciamento de estado menos complexo do que em outras soluções.",
+    "data_criacao": "2019",
+    "link": "https://zustand-bear.vercel.app/",
+    "tags": [
+      "gerenciamento de estado",
+      "frontend",
+      "biblioteca",
+      "react"
+    ]
+  },
+  {
+    "nome": "Cypress",
+    "descricao": "Cypress é um framework de testes de ponta a ponta (end-to-end) de última geração, construído para a web moderna. Ele roda diretamente no navegador ao lado da aplicação, permitindo escrever, executar e depurar testes de forma rápida e confiável, com uma experiência de desenvolvimento excepcional.",
+    "data_criacao": "2015",
+    "link": "https://www.cypress.io/",
+    "tags": [
+      "testes",
+      "e2e",
+      "qa",
+      "javascript"
+    ]
+  },
+  {
+    "nome": "Chakra UI",
+    "descricao": "Chakra UI é uma biblioteca de componentes para React que fornece um conjunto de blocos de construção simples, modulares e acessíveis para a criação de interfaces de usuário. Ela se concentra na experiência do desenvolvedor, oferecendo componentes estilizados e personalizáveis que seguem as melhores práticas de acessibilidade.",
+    "data_criacao": "2019",
+    "link": "https://chakra-ui.com/",
+    "tags": [
+      "biblioteca",
+      "componentes",
+      "frontend",
+      "ui/ux"
+    ]
+  },
+  {
+    "nome": "Strapi",
+    "descricao": "Strapi é o principal CMS (Content Management System) Headless de código aberto, baseado em Node.js. Ele permite que os desenvolvedores construam APIs personalizáveis de forma rápida, fornecendo um painel de administração intuitivo para gerenciar o conteúdo e distribuí-lo para qualquer plataforma ou dispositivo.",
+    "data_criacao": "2017",
+    "link": "https://strapi.io/",
+    "tags": [
+      "cms",
+      "headless",
+      "backend",
+      "api"
+    ]
+  },
+  {
+    "nome": "Tauri",
+    "descricao": "Tauri é um framework para a construção de aplicações de desktop multiplataforma (Windows, macOS, Linux) usando tecnologias web (HTML, CSS e JavaScript) para a interface. Ele se diferencia por usar Rust para o backend, resultando em aplicações mais seguras, leves e com melhor desempenho em comparação com alternativas como o Electron.",
+    "data_criacao": "2019",
+    "link": "https://tauri.app/",
+    "tags": [
+      "aplicativos desktop",
+      "rust",
+      "framework",
+      "multiplataforma"
+    ]
+  },
+  {
+    "nome": "Nginx",
+    "descricao": "Nginx é um servidor web de código aberto de alto desempenho, conhecido por sua estabilidade, rico conjunto de recursos, configuração simples e baixo consumo de recursos. Além de servir conteúdo estático, é amplamente utilizado como proxy reverso, balanceador de carga e cache HTTP para aplicações web modernas.",
+    "data_criacao": "2004",
+    "link": "https://www.nginx.com/",
+    "tags": [
+      "servidor web",
+      "proxy",
+      "devops",
+      "performance"
+    ]
+  },
+  {
+    "nome": "WebGL",
+    "descricao": "WebGL (Web Graphics Library) é uma API JavaScript para renderizar gráficos interativos 2D e 3D em qualquer navegador web compatível, sem a necessidade de plug-ins. Ela permite que o código JavaScript utilize a GPU (Unidade de Processamento Gráfico) do computador para criar visualizações complexas e de alto desempenho.",
+    "data_criacao": "2011",
+    "link": "https://www.khronos.org/webgl/",
+    "tags": [
+      "graficos",
+      "web",
+      "api",
+      "3d"
+    ]
+  },
+  {
+    "nome": "Realm",
+    "descricao": "Realm, agora parte do MongoDB, é um banco de dados móvel projetado para ser rápido, fácil de usar e funcionar offline. Ele permite que os desenvolvedores armazenem dados diretamente em dispositivos móveis (iOS e Android) e oferece uma plataforma de sincronização para manter os dados consistentes entre dispositivos e o backend.",
+    "data_criacao": "2014",
+    "link": "https://www.mongodb.com/realm",
+    "tags": [
+      "banco de dados",
+      "mobile",
+      "nosql",
+      "sincronizacao"
+    ]
+  },
+  {
+    "nome": "Sentry",
+    "descricao": "Sentry é uma plataforma de monitoramento de erros que ajuda os desenvolvedores a diagnosticar, corrigir e otimizar o desempenho de seu código em tempo real. Ele captura exceções não tratadas em aplicações frontend, backend e móveis, fornecendo o contexto necessário para entender e resolver os problemas rapidamente.",
+    "data_criacao": "2010",
+    "link": "https://sentry.io/",
+    "tags": [
+      "monitoramento",
+      "observabilidade",
+      "devops",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "CloudFormation",
+    "descricao": "AWS CloudFormation é um serviço que permite modelar e provisionar recursos de infraestrutura na nuvem da Amazon Web Services de forma automatizada. Utilizando arquivos de modelo em JSON ou YAML, ele trata a infraestrutura como código (IaC), permitindo criar, atualizar e gerenciar pilhas de recursos de forma previsível e repetível.",
+    "data_criacao": "2011",
+    "link": "https://aws.amazon.com/cloudformation/",
+    "tags": [
+      "iaac",
+      "aws",
+      "infraestrutura",
+      "cloud"
+    ]
+  },
+  {
+    "nome": "Remix",
+    "descricao": "Remix é um framework web full-stack construído sobre o React, focado em fundamentos da web e em uma experiência de usuário aprimorada. Ele se destaca por sua abordagem de renderização no servidor e gerenciamento de dados baseado em rotas aninhadas, o que resulta em transições rápidas e uma performance otimizada.",
+    "data_criacao": "2020",
+    "link": "https://remix.run/",
+    "tags": [
+      "framework",
+      "frontend",
+      "full-stack",
+      "react",
+      "web"
+    ]
+  },
+  {
+    "nome": "SQLite",
+    "descricao": "SQLite é um motor de banco de dados relacional contido em uma biblioteca C. Diferente da maioria dos bancos de dados SQL, ele não possui um processo de servidor separado, sendo integrado diretamente na aplicação. É extremamente leve, portátil e ideal para aplicações móveis, desktop e sistemas embarcados.",
+    "data_criacao": "2000",
+    "link": "https://www.sqlite.org/",
+    "tags": [
+      "banco de dados",
+      "embedded",
+      "relacional",
+      "lite"
+    ]
+  },
+  {
+    "nome": "Erlang",
+    "descricao": "Erlang é uma linguagem de programação funcional e concorrente, com um runtime projetado para construir sistemas distribuídos, massivamente escaláveis, de alta disponibilidade e tolerantes a falhas. É a tecnologia por trás de sistemas de telecomunicações robustos e da máquina virtual (BEAM) que alimenta o Elixir.",
+    "data_criacao": "1986",
+    "link": "https://www.erlang.org/",
+    "tags": [
+      "linguagem de programação",
+      "concorrência",
+      "funcional",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Tanzu",
+    "descricao": "VMware Tanzu é um portfólio de produtos e serviços que permite construir, executar e gerenciar aplicações modernas em qualquer nuvem, com foco em Kubernetes. Ele ajuda as empresas a modernizar sua infraestrutura e aplicações, automatizando o ciclo de vida de clusters Kubernetes e simplificando o desenvolvimento nativo da nuvem.",
+    "data_criacao": "2019",
+    "link": "https://tanzu.vmware.com/",
+    "tags": [
+      "cloud native",
+      "kubernetes",
+      "plataforma",
+      "devops"
+    ]
+  },
+  {
+    "nome": "pnpm",
+    "descricao": "pnpm é um gerenciador de pacotes para JavaScript que se destaca por ser rápido e extremamente eficiente no uso de espaço em disco. Ele utiliza uma estrutura de armazenamento única e links simbólicos para evitar a duplicação de pacotes, garantindo que cada versão de um pacote seja salva apenas uma vez no disco.",
+    "data_criacao": "2016",
+    "link": "https://pnpm.io/",
+    "tags": [
+      "ferramenta",
+      "pacotes",
+      "javascript",
+      "cli"
+    ]
+  },
+  {
+    "nome": "Babel",
+    "descricao": "Babel é um compilador de JavaScript (transpilador) que permite aos desenvolvedores usar as funcionalidades mais recentes da linguagem (ES2015+), convertendo o código para uma versão compatível com navegadores e ambientes mais antigos. É uma ferramenta essencial no desenvolvimento web moderno para garantir a compatibilidade.",
+    "data_criacao": "2014",
+    "link": "https://babeljs.io/",
+    "tags": [
+      "ferramenta",
+      "transpilador",
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "nome": "RxJS",
+    "descricao": "RxJS (Reactive Extensions for JavaScript) é uma biblioteca para programação reativa que utiliza Observables para facilitar a composição de código assíncrono e baseado em eventos. Ela fornece operadores poderosos para filtrar, transformar e combinar múltiplos eventos ao longo do tempo, simplificando o gerenciamento de fluxos de dados complexos.",
+    "data_criacao": "2016",
+    "link": "https://rxjs.dev/",
+    "tags": [
+      "biblioteca",
+      "programação reativa",
+      "assíncrona",
+      "javascript"
+    ]
+  },
+  {
+    "nome": "Three.js",
+    "descricao": "Three.js é uma biblioteca JavaScript de alto nível que simplifica a criação e exibição de gráficos 3D animados em um navegador web. Ela utiliza a API WebGL para renderizar cenas complexas, câmeras, luzes e objetos, tornando o desenvolvimento de experiências 3D na web muito mais acessível.",
+    "data_criacao": "2010",
+    "link": "https://threejs.org/",
+    "tags": [
+      "gráficos 3d",
+      "biblioteca",
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "nome": "OpenTelemetry",
+    "descricao": "OpenTelemetry é um padrão e um conjunto de ferramentas, APIs e SDKs de código aberto para instrumentar, gerar, coletar e exportar dados de telemetria (métricas, logs e traces). Seu objetivo é padronizar a forma como a observabilidade é implementada, independentemente do fornecedor da plataforma de análise.",
+    "data_criacao": "2019",
+    "link": "https://opentelemetry.io/",
+    "tags": [
+      "observabilidade",
+      "monitoramento",
+      "padronização",
+      "devops"
+    ]
+  },
+  {
+    "nome": "Datadog",
+    "descricao": "Datadog é uma plataforma de monitoramento e análise como serviço (SaaS) para aplicações em nuvem. Ela unifica métricas, traces e logs de servidores, bancos de dados, ferramentas e serviços para fornecer uma visão completa da saúde e do desempenho da infraestrutura e das aplicações em tempo real.",
+    "data_criacao": "2010",
+    "link": "https://www.datadoghq.com/",
+    "tags": [
+      "observabilidade",
+      "monitoramento",
+      "saas",
+      "devops"
+    ]
+  },
+  {
+    "nome": "Bicep",
+    "descricao": "Bicep é uma linguagem de domínio específico (DSL) que usa uma sintaxe declarativa para implantar recursos do Azure. Ela oferece uma sintaxe mais limpa e concisa em comparação com os modelos ARM JSON, atuando como uma abstração que compila para o formato ARM padrão, facilitando a criação de infraestrutura como código no Azure.",
+    "data_criacao": "2020",
+    "link": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview",
+    "tags": [
+      "infraestrutura como código",
+      "azure",
+      "devops",
+      "cloud"
+    ]
+  },
+  {
+    "nome": "Vagrant",
+    "descricao": "Vagrant é uma ferramenta de código aberto para construir e gerenciar ambientes de desenvolvimento virtualizados. Ele permite que os desenvolvedores criem fluxos de trabalho leves, reproduzíveis e portáteis, garantindo que todos na equipe trabalhem com a mesma configuração de ambiente, o que reduz problemas de compatibilidade.",
+    "data_criacao": "2010",
+    "link": "https://www.vagrantup.com/",
+    "tags": [
+      "virtualização",
+      "devops",
+      "ferramenta",
+      "ambiente de desenvolvimento"
+    ]
+  },
+  {
+    "nome": "Liquibase",
+    "descricao": "Liquibase é uma ferramenta de código aberto para controle de versão de banco de dados. Ela permite rastrear, gerenciar e aplicar alterações no esquema de um banco de dados de forma automatizada e independente do tipo de banco, tratando as migrações de banco de dados como parte do código da aplicação.",
+    "data_criacao": "2006",
+    "link": "https://www.liquibase.com/",
+    "tags": [
+      "banco de dados",
+      "devops",
+      "migração",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Hono",
+    "descricao": "Hono é um framework web para JavaScript pequeno, simples e ultrarrápido. Ele é projetado para rodar em qualquer runtime JavaScript, mas se destaca por sua eficiência em ambientes de 'Edge Computing' como Cloudflare Workers, Deno e Bun, oferecendo um roteador rápido e uma API familiar.",
+    "data_criacao": "2022",
+    "link": "https://hono.dev/",
+    "tags": [
+      "framework",
+      "edge computing",
+      "serveless",
+      "javascript"
+    ]
+  },
+  {
+    "nome": "Memcached",
+    "descricao": "Memcached é um sistema de cache de objetos em memória, distribuído e de alto desempenho. Seu principal objetivo é acelerar aplicações web dinâmicas, aliviando a carga sobre o banco de dados ao armazenar dados e objetos na memória RAM para acesso rápido, sendo amplamente utilizado para cache de resultados de consultas e sessões.",
+    "data_criacao": "2003",
+    "link": "https://memcached.org/",
+    "tags": [
+      "cache",
+      "banco de dados",
+      "distribuído",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Zsh",
+    "descricao": "Zsh (Z shell) é um shell Unix que pode ser usado como um interpretador de comandos interativo e como uma linguagem de script. Ele é uma extensão do Bash, oferecendo recursos avançados como autocompletar aprimorado, temas e um vasto ecossistema de plugins, popularizado pelo framework 'Oh My Zsh'.",
+    "data_criacao": "1990",
+    "link": "https://www.zsh.org/",
+    "tags": [
+      "ferramenta",
+      "shell",
+      "sistema operacional",
+      "produtividade"
+    ]
+  },
+  {
+    "nome": "OAuth 2.0",
+    "descricao": "OAuth 2.0 é um padrão da indústria e um framework de autorização, não de autenticação. Ele permite que uma aplicação de terceiros obtenha acesso limitado a uma conta de usuário em um serviço HTTP, delegando a autorização do usuário sem expor suas credenciais (como nome de usuário e senha).",
+    "data_criacao": "2012",
+    "link": "https://oauth.net/2/",
+    "tags": [
+      "segurança",
+      "autenticação",
+      "protocolo",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Kafka Streams",
+    "descricao": "Kafka Streams é uma biblioteca cliente para construir aplicações e microsserviços onde os dados de entrada e saída são armazenados em clusters do Apache Kafka. Ela permite o processamento de fluxos de dados em tempo real, oferecendo uma API de alto nível para operações como filtragem, mapeamento e agregações.",
+    "data_criacao": "2016",
+    "link": "https://kafka.apache.org/documentation/streams/",
+    "tags": [
+      "processamento de dados",
+      "streaming",
+      "biblioteca",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Wasmtime",
+    "descricao": "Wasmtime é um runtime JIT (Just-In-Time) pequeno e eficiente para WebAssembly (Wasm). Ele foi projetado para ser um ambiente seguro e de alto desempenho para executar código Wasm fora do navegador, sendo uma peça fundamental para o padrão WASI (WebAssembly System Interface), que permite a interação com o sistema operacional.",
+    "data_criacao": "2019",
+    "link": "https://wasmtime.dev/",
+    "tags": [
+      "runtime",
+      "webassembly",
+      "serveless",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Power BI",
+    "descricao": "Microsoft Power BI é uma plataforma unificada de Business Intelligence (BI) que permite transformar dados brutos de várias fontes em visualizações interativas, dashboards e relatórios. Ele capacita os usuários a analisar dados e compartilhar insights de forma visual e intuitiva, facilitando a tomada de decisões baseada em dados.",
+    "data_criacao": "2015",
+    "link": "https://powerbi.microsoft.com/",
+    "tags": [
+      "business intelligence",
+      "visualização de dados",
+      "análise",
+      "microsoft"
+    ]
+  },
+  {
+    "nome": "NixOS",
+    "descricao": "NixOS é uma distribuição Linux construída sobre o gerenciador de pacotes Nix. Sua principal característica é a abordagem declarativa para o gerenciamento de configuração do sistema, o que garante que as configurações sejam reproduzíveis e as atualizações sejam atômicas (ou seja, nunca deixam o sistema em um estado inconsistente).",
+    "data_criacao": "2003",
+    "link": "https://nixos.org/",
+    "tags": [
+      "sistema operacional",
+      "devops",
+      "gerenciamento de pacotes",
+      "reprodutibilidade"
+    ]
+  },
+  {
+    "nome": "XState",
+    "descricao": "XState é uma biblioteca para criar e gerenciar máquinas de estado finitas e diagramas de estado em JavaScript e TypeScript. Ela permite orquestrar lógicas de UI complexas de forma visual e previsível, garantindo que a aplicação só possa estar em um estado finito por vez, o que ajuda a eliminar bugs.",
+    "data_criacao": "2017",
+    "link": "https://xstate.js.org/",
+    "tags": [
+      "gerenciamento de estado",
+      "biblioteca",
+      "javascript",
+      "arquitetura"
+    ]
+  },
+  {
+    "nome": "Temporal",
+    "descricao": "Temporal é uma plataforma de código aberto para orquestração de microsserviços e execução de fluxos de trabalho (workflows) duráveis. Ele permite que os desenvolvedores escrevam lógicas de negócio complexas como código simples e sequencial, enquanto a plataforma lida com a durabilidade, confiabilidade e escalabilidade, mesmo diante de falhas.",
+    "data_criacao": "2020",
+    "link": "https://temporal.io/",
+    "tags": [
+      "workflow",
+      "orquestração",
+      "distribuído",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Figma",
+    "descricao": "Figma é uma ferramenta de design de interface baseada em nuvem que permite a colaboração em tempo real. É amplamente utilizada por designers de UI/UX para criar wireframes, protótipos interativos e designs de alta fidelidade, facilitando a comunicação e o handoff para as equipes de desenvolvimento.",
+    "data_criacao": "2016",
+    "link": "https://www.figma.com/",
+    "tags": [
+      "design",
+      "ui/ux",
+      "ferramenta",
+      "prototipagem"
+    ]
+  },
+  {
+    "nome": "Bun",
+    "descricao": "Bun é um toolkit JavaScript all-in-one projetado para velocidade. Ele serve como um runtime, bundler, test runner e gerenciador de pacotes, tudo em uma única ferramenta. Seu objetivo é ser uma substituição extremamente rápida para as ferramentas existentes no ecossistema JavaScript, como Node.js, Jest e Webpack.",
+    "data_criacao": "2022",
+    "link": "https://bun.sh/",
+    "tags": [
+      "runtime",
+      "javascript",
+      "ferramenta",
+      "backend",
+      "frontend"
+    ]
+  }
+]
