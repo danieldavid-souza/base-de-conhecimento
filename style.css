@@ -195,6 +195,11 @@ header h1 {
     color: var(--text-primary);
 }
 
+/* Esconde o botão hambúrguer em telas grandes por padrão */
+.hamburger-btn {
+    display: none;
+}
+
 main {
     max-width: 80rem; /* Largura máxima do conteúdo principal */
     width: 100%; /* Garante que o main ocupe a largura disponível. */
@@ -352,8 +357,8 @@ main {
 /* Estilos do Botão Voltar ao Topo */
 #back-to-top-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 1.25rem;
+    right: 1.25rem;
     background-color: var(--primary-color);
     color: var(--bg-primary);
     border: none;
@@ -545,9 +550,4 @@ main {
         flex-direction: column; /* Organiza o conteúdo em coluna. */
         gap: 1.5rem; /* Aumenta o espaçamento. */
     }
-}
-
-/* Esconde o botão hambúrguer em telas grandes por padrão */
-.hamburger-btn {
-    display: none;
 }
