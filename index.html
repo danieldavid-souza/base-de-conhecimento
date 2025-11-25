@@ -22,20 +22,28 @@
             <div class="search-container"> <!-- Contêiner específico para os elementos de busca -->
                 <input type="text" placeholder="Digite uma linguagem ou tecnologia"> <!-- Campo de entrada de texto para o usuário digitar o termo de busca -->
             </div>
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Abrir filtros">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
         </div>
-        <div class="filters-container">
-            <div id="category-filters" class="category-filters">
-                <!-- Botões de categoria serão inseridos aqui -->
-            </div>
-            <div class="sort-container">
-                <label for="sort-options">Ordenar por:</label>
-                <select id="sort-options">
-                    <option value="default">Padrão</option>
-                    <option value="az">Nome (A-Z)</option>
-                    <option value="za">Nome (Z-A)</option>
-                    <option value="newest">Ano (Mais Recente)</option>
-                    <option value="oldest">Ano (Mais Antigo)</option>
-                </select>
+        <div id="mobile-filters-menu" class="filters-container">
+            <div class="filters-content">
+                <h3>Categorias</h3>
+                <div id="category-filters" class="category-filters">
+                    <!-- Botões de categoria serão inseridos aqui -->
+                </div>
+                <h3>Ordenar por</h3>
+                <div class="sort-container">
+                    <select id="sort-options">
+                        <option value="default">Padrão</option>
+                        <option value="az">Nome (A-Z)</option>
+                        <option value="za">Nome (Z-A)</option>
+                        <option value="newest">Ano (Mais Recente)</option>
+                        <option value="oldest">Ano (Mais Antigo)</option>
+                    </select>
+                </div>
             </div>
         </div>
     </header>

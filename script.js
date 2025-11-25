@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("tech-modal");
   const modalBody = document.getElementById("modal-body");
   const closeModalBtn = document.querySelector(".modal-close-btn");
+  const hamburgerBtn = document.getElementById("hamburger-btn");
+  const mobileFiltersMenu = document.getElementById("mobile-filters-menu");
 
   // Variáveis para armazenar o estado da aplicação.
   let dados = []; // Array completo de tecnologias, carregado do JSON.
@@ -226,6 +228,12 @@ document.addEventListener("DOMContentLoaded", () => {
   inputBusca.addEventListener('input', applyFiltersAndSort);
   sortOptions.addEventListener('change', applyFiltersAndSort);
   themeToggleBtn.addEventListener('click', toggleTheme);
+
+  // Evento para o menu hambúrguer.
+  hamburgerBtn.addEventListener('click', () => {
+    hamburgerBtn.classList.toggle('open');
+    mobileFiltersMenu.classList.toggle('open');
+  });
   
   // Eventos para fechar o modal.
   closeModalBtn.addEventListener('click', () => modal.style.display = "none");
