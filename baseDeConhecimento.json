@@ -2,80 +2,93 @@
   {
     "nome": "Javascript",
     "descricao": "JavaScript é uma linguagem de programação fundamental para a web, sendo usada principalmente para adicionar interatividade e dinamismo a páginas da internet. Juntamente com o HTML e o CSS, ele forma a base das tecnologias da World Wide Web, permitindo a criação de elementos como menus interativos, animações e formulários dinâmicos.",
-    "ano": 1995,
-    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide"
+    "data_criacao": "1995",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Python",
     "descricao": "Python é uma linguagem de programação de alto nível, fundamental para diversas áreas da computação, usada principalmente para desenvolvimento web (backend), ciência de dados, inteligência artificial e automação. Em conjunto com frameworks como Django e Flask, ela forma a base de aplicações robustas, permitindo a criação de sistemas complexos, análise de dados e algoritmos de machine learning.",
-    "ano": 1991,
-    "link": "https://docs.python.org/pt-br/3.14/"
+    "data_criacao": "1991",
+    "link": "https://docs.python.org/pt-br/3.14/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Java",
     "descricao": "Java é uma linguagem de programação orientada a objetos, fundamental para o desenvolvimento de aplicações corporativas, sendo usada principalmente para criar sistemas backend robustos e aplicativos Android. Juntamente com o ecossistema Spring, ela forma a base de muitas soluções empresariais, permitindo a criação de microsserviços, APIs RESTful e sistemas de grande escala.",
-    "ano": 1995,
-    "link": "https://docs.oracle.com/en/java/"
+    "data_criacao": "1995",
+    "link": "https://docs.oracle.com/en/java/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "C#",
     "descricao": "C# é uma linguagem de programação moderna e orientada a objetos, fundamental para o ecossistema .NET da Microsoft, usada principalmente para o desenvolvimento de aplicações web, jogos e software para Windows. Juntamente com o ASP.NET e a engine Unity, ela forma a base para serviços backend, APIs e jogos interativos, permitindo a criação de desde sistemas corporativos a experiências de jogos imersivas.",
-    "ano": 2000,
-    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+    "data_criacao": "2000",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "PHP",
     "descricao": "PHP é uma linguagem de script do lado do servidor, fundamental para o desenvolvimento web, sendo usada principalmente para criar sites e aplicações dinâmicas. Juntamente com sistemas de gerenciamento de conteúdo como WordPress e frameworks como Laravel, ela forma a base de grande parte da web, permitindo a criação de blogs, lojas virtuais e portais de conteúdo.",
-    "ano": 1995,
-    "link": "https://www.php.net/manual/pt_BR/"
+    "data_criacao": "1995",
+    "link": "https://www.php.net/manual/pt_BR/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Ruby",
     "descricao": "Ruby é uma linguagem de programação dinâmica, fundamental para o desenvolvimento web ágil, sendo usada principalmente para construir aplicações de forma rápida e produtiva. Juntamente com o framework Ruby on Rails, ela forma a base para muitas startups e projetos, permitindo a criação de protótipos rápidos, MVPs e aplicações web completas com sua filosofia de 'convenção sobre configuração'.",
-    "ano": 1995,
-    "link": "https://www.ruby-lang.org/pt/documentation/"
+    "data_criacao": "1995",
+    "link": "https://www.ruby-lang.org/pt/documentation/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Go",
     "descricao": "Go (ou Golang) é uma linguagem de programação compilada, fundamental para o desenvolvimento de sistemas concorrentes e de rede, sendo usada principalmente para criar microsserviços e ferramentas de linha de comando de alto desempenho. Juntamente com suas bibliotecas padrão robustas, ela forma a base para aplicações de backend eficientes, permitindo a criação de APIs rápidas, proxies e sistemas distribuídos.",
-    "ano": 2009,
-    "link": "https://go.dev/doc/"
+    "data_criacao": "2009",
+    "link": "https://go.dev/doc/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Swift",
     "descricao": "Swift é uma linguagem de programação moderna, fundamental para o ecossistema Apple, sendo usada principalmente para desenvolver aplicativos para iOS, macOS, watchOS e tvOS. Juntamente com o framework SwiftUI, ela forma a base para a criação de interfaces de usuário nativas e performáticas, permitindo a criação de desde aplicativos simples até sistemas complexos para os dispositivos da Apple.",
-    "ano": 2014,
-    "link": "https://developer.apple.com/swift/documentation/"
+    "data_criacao": "2014",
+    "link": "https://developer.apple.com/swift/documentation/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "TypeScript",
     "descricao": "TypeScript é uma linguagem de programação que adiciona tipos estáticos ao JavaScript, fundamental para o desenvolvimento de aplicações robustas e escaláveis, sendo usada principalmente para projetos de grande porte. Juntamente com frameworks como Angular e React, ela forma a base para um código mais seguro e de fácil manutenção, permitindo a criação de sistemas complexos com menos erros em tempo de execução.",
-    "ano": 2012,
-    "link": "https://www.typescriptlang.org/docs/"
+    "data_criacao": "2012",
+    "link": "https://www.typescriptlang.org/docs/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Kotlin",
     "descricao": "Kotlin é uma linguagem de programação moderna, fundamental para o desenvolvimento Android, sendo usada principalmente para criar aplicativos nativos de forma segura e concisa. Juntamente com o ecossistema do Android Jetpack, ela forma a base para aplicações modernas, permitindo a criação de interfaces ricas, gerenciamento de ciclo de vida e comunicação de rede eficiente.",
-    "ano": 2011,
-    "link": "https://kotlinlang.org/docs/home.html"
+    "data_criacao": "2011",
+    "link": "https://kotlinlang.org/docs/home.html",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Rust",
     "descricao": "Rust é uma linguagem de programação de sistemas, fundamental para o desenvolvimento de software seguro e de alto desempenho, sendo usada principalmente para criar sistemas operacionais, navegadores e ferramentas de linha de comando. Juntamente com seu sistema de propriedade (ownership) e o gerenciador de pacotes Cargo, ela forma a base para aplicações que garantem segurança de memória sem um coletor de lixo, permitindo a criação de desde drivers de dispositivo a serviços web performáticos.",
-    "ano": 2010,
-    "link": "https://doc.rust-lang.org/book/"
+    "data_criacao": "2010",
+    "link": "https://doc.rust-lang.org/book/",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "C++",
     "descricao": "C++ é uma linguagem de programação de propósito geral, fundamental para aplicações que exigem alto desempenho, sendo usada principalmente no desenvolvimento de motores de jogos, sistemas embarcados e software de computação científica. Juntamente com bibliotecas como a Standard Template Library (STL), ela forma a base para sistemas complexos, permitindo a criação de desde jogos AAA a softwares de análise financeira.",
-    "ano": 1985,
-    "link": "https://isocpp.org/get-started"
+    "data_criacao": "1985",
+    "link": "https://isocpp.org/get-started",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Dart",
     "descricao": "Dart é uma linguagem de programação otimizada para cliente, fundamental para o desenvolvimento de aplicações multiplataforma, sendo usada principalmente para criar interfaces de usuário com o framework Flutter. Juntamente com o Flutter, ela forma a base para aplicativos móveis, web e desktop a partir de um único código, permitindo a criação de experiências consistentes e de alta performance em todas as plataformas.",
-    "ano": 2011,
-    "link": "https://dart.dev/guides"
+    "data_criacao": "2011",
+    "link": "https://dart.dev/guides",
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "React",
@@ -87,7 +100,8 @@
       "biblioteca",
       "interface de usuário",
       "framework"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Angular",
@@ -99,7 +113,8 @@
       "framework",
       "SPA",
       "Google"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Vue.js",
@@ -111,7 +126,8 @@
       "framework",
       "MVVM",
       "web development"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Node.js",
@@ -123,7 +139,8 @@
       "backend",
       "servidor",
       "plataforma"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Spring Boot",
@@ -135,7 +152,8 @@
       "backend",
       "Java Ecosystem",
       "microservices"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "Django",
@@ -147,7 +165,8 @@
       "backend",
       "ORM",
       "full-stack"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "Flask",
@@ -159,7 +178,8 @@
       "backend",
       "API",
       "leve"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "MongoDB",
@@ -171,7 +191,8 @@
       "NoSQL",
       "documentos",
       "armazenamento de dados"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "PostgreSQL",
@@ -183,7 +204,8 @@
       "relacional",
       "SQL",
       "open source"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Docker",
@@ -195,7 +217,8 @@
       "devops",
       "virtualização",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Kubernetes",
@@ -207,7 +230,8 @@
       "devops",
       "cloud computing",
       "containerização"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "AWS Lambda",
@@ -219,7 +243,8 @@
       "cloud computing",
       "FaaS",
       "AWS"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Terraform",
@@ -231,7 +256,8 @@
       "devops",
       "cloud",
       "automatização"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Svelte",
@@ -243,7 +269,8 @@
       "frontend",
       "compilador",
       "performance"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Apache Kafka",
@@ -255,7 +282,8 @@
       "data pipeline",
       "mensageria",
       "apache"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "GraphQL",
@@ -267,7 +295,8 @@
       "linguagem de consulta",
       "backend",
       "dados"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Redis",
@@ -279,7 +308,8 @@
       "cache",
       "NoSQL",
       "in-memory"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Next.js",
@@ -292,7 +322,8 @@
       "SSR",
       "full-stack",
       "React Ecosystem"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "NestJS",
@@ -304,7 +335,8 @@
       "backend",
       "arquitetura",
       "serviços"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "SQL",
@@ -316,7 +348,8 @@
       "banco de dados",
       "relacional",
       "consulta"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Jenkins",
@@ -328,7 +361,8 @@
       "devops",
       "automação",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Prometheus",
@@ -340,7 +374,8 @@
       "devops",
       "observabilidade",
       "alerta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Git",
@@ -352,7 +387,8 @@
       "ferramenta",
       "colaboração",
       "desenvolvimento"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "HTML5",
@@ -364,7 +400,8 @@
       "frontend",
       "web standard",
       "estrutura"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "CSS3",
@@ -376,7 +413,8 @@
       "frontend",
       "design",
       "web standard"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Flutter",
@@ -389,7 +427,8 @@
       "frontend",
       "cross-platform",
       "Google"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "FastAPI",
@@ -401,7 +440,8 @@
       "backend",
       "API",
       "Python"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "GitHub Actions",
@@ -413,7 +453,8 @@
       "devops",
       "automação",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Postman",
@@ -425,7 +466,8 @@
       "API",
       "teste",
       "desenvolvimento"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "MySQL",
@@ -437,7 +479,8 @@
       "relacional",
       "SQL",
       "open source"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Elixir",
@@ -449,7 +492,8 @@
       "Funcional",
       "Backend",
       "Concorrência"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "SolidJS",
@@ -461,7 +505,8 @@
       "Reatividade",
       "Performance",
       "Biblioteca"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Apache Cassandra",
@@ -473,7 +518,8 @@
       "Distribuição",
       "Big Data",
       "Sistema de Arquivos"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Blazor",
@@ -486,7 +532,8 @@
       "C#",
       "WebAssembly",
       "Frontend"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Puppet",
@@ -498,7 +545,8 @@
       "Gerenciamento de Configuração",
       "Automação",
       "Infraestrutura como Código"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Apache Spark",
@@ -510,7 +558,8 @@
       "Processamento de Dados",
       "Análise",
       "Framework"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "WebAssembly",
@@ -522,7 +571,8 @@
       "Performance",
       "Compilação",
       "Runtime"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Astro",
@@ -534,7 +584,8 @@
       "Frontend",
       "Performance",
       "Conteúdo Estático"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "gRPC",
@@ -547,7 +598,8 @@
       "Microserviços",
       "RPC",
       "Backend"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Phoenix",
@@ -559,7 +611,8 @@
       "Elixir",
       "Backend",
       "Concorrência"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "GitLab CI",
@@ -571,7 +624,8 @@
       "DevOps",
       "Automação",
       "Pipeline"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Neo4j",
@@ -582,7 +636,8 @@
       "Banco de Dados NoSQL",
       "Grafo",
       "Gerenciamento de Dados"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Ansible",
@@ -594,7 +649,8 @@
       "Automação",
       "Provisionamento",
       "Gerenciamento de Configuração"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "CockroachDB",
@@ -606,7 +662,8 @@
       "SQL Distribuído",
       "Cloud Native",
       "Tolerância a Falhas"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Haskell",
@@ -618,7 +675,8 @@
       "Funcional",
       "Acadêmico",
       "Backend"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Julia",
@@ -630,7 +688,8 @@
       "Ciência de Dados",
       "Performance",
       "Computação Científica"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Consul",
@@ -642,7 +701,8 @@
       "DevOps",
       "Service Mesh",
       "HashiCorp"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Clojure",
@@ -654,7 +714,8 @@
       "Lisp",
       "Funcional",
       "JVM"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Chef",
@@ -666,7 +727,8 @@
       "IaC",
       "Gerenciamento de Configuração",
       "Automação"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Couchbase",
@@ -678,7 +740,8 @@
       "Documentos",
       "Cache",
       "Distribuição"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Helm",
@@ -690,7 +753,8 @@
       "DevOps",
       "Gerenciamento de Pacotes",
       "Cloud Native"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Cloudflare Workers",
@@ -702,7 +766,8 @@
       "Edge Computing",
       "Cloud",
       "CDN"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Scala",
@@ -715,7 +780,8 @@
       "Funcional",
       "Backend",
       "Big Data"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Zig",
@@ -727,7 +793,8 @@
       "Baixo Nível",
       "Compilação",
       "Sistema"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Keras",
@@ -739,7 +806,8 @@
       "Deep Learning",
       "Framework",
       "Ciência de Dados"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "Deno",
@@ -751,7 +819,8 @@
       "backend",
       "typescript",
       "seguranca"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Vite",
@@ -763,7 +832,8 @@
       "frontend",
       "javascript",
       "desenvolvimento"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Tailwind CSS",
@@ -775,7 +845,8 @@
       "framework",
       "frontend",
       "design"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Supabase",
@@ -787,7 +858,8 @@
       "banco de dados",
       "backend",
       "servicos em nuvem"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Prisma",
@@ -799,7 +871,8 @@
       "banco de dados",
       "typescript",
       "backend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "PyTorch",
@@ -811,7 +884,8 @@
       "ia",
       "framework",
       "deep learning"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "RabbitMQ",
@@ -823,7 +897,8 @@
       "microsservicos",
       "messaging",
       "devops"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Vercel",
@@ -835,7 +910,8 @@
       "deployment",
       "ci/cd",
       "frontend"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Nuxt",
@@ -848,7 +924,8 @@
       "vue",
       "ssr",
       "fullstack"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Express.js",
@@ -860,7 +937,8 @@
       "backend",
       "javascript",
       "api"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "Expo",
@@ -872,7 +950,8 @@
       "react native",
       "ferramenta",
       "framework"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Selenium",
@@ -884,7 +963,8 @@
       "testes",
       "qa",
       "web"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Jupyter",
@@ -896,7 +976,8 @@
       "notebook",
       "ferramenta",
       "analise de dados"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "MariaDB",
@@ -908,7 +989,8 @@
       "relacional",
       "sql",
       "opensource"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Hadoop",
@@ -920,7 +1002,8 @@
       "distribuido",
       "armazenamento",
       "framework"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Zustand",
@@ -932,7 +1015,8 @@
       "frontend",
       "biblioteca",
       "react"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Cypress",
@@ -944,7 +1028,8 @@
       "e2e",
       "qa",
       "javascript"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Chakra UI",
@@ -956,7 +1041,8 @@
       "componentes",
       "frontend",
       "ui/ux"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Strapi",
@@ -968,7 +1054,8 @@
       "headless",
       "backend",
       "api"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Tauri",
@@ -980,7 +1067,8 @@
       "rust",
       "framework",
       "multiplataforma"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Nginx",
@@ -992,7 +1080,8 @@
       "proxy",
       "devops",
       "performance"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "WebGL",
@@ -1004,7 +1093,8 @@
       "web",
       "api",
       "3d"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Realm",
@@ -1016,7 +1106,8 @@
       "mobile",
       "nosql",
       "sincronizacao"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Sentry",
@@ -1028,7 +1119,8 @@
       "observabilidade",
       "devops",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "CloudFormation",
@@ -1040,7 +1132,8 @@
       "aws",
       "infraestrutura",
       "cloud"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Remix",
@@ -1053,7 +1146,8 @@
       "full-stack",
       "react",
       "web"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "SQLite",
@@ -1065,7 +1159,8 @@
       "embedded",
       "relacional",
       "lite"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Erlang",
@@ -1077,7 +1172,8 @@
       "concorrência",
       "funcional",
       "backend"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Tanzu",
@@ -1089,7 +1185,8 @@
       "kubernetes",
       "plataforma",
       "devops"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "pnpm",
@@ -1101,7 +1198,8 @@
       "pacotes",
       "javascript",
       "cli"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Babel",
@@ -1113,7 +1211,8 @@
       "transpilador",
       "javascript",
       "frontend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "RxJS",
@@ -1125,7 +1224,8 @@
       "programação reativa",
       "assíncrona",
       "javascript"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Three.js",
@@ -1137,7 +1237,8 @@
       "biblioteca",
       "javascript",
       "frontend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "OpenTelemetry",
@@ -1149,7 +1250,8 @@
       "monitoramento",
       "padronização",
       "devops"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Datadog",
@@ -1161,7 +1263,8 @@
       "monitoramento",
       "saas",
       "devops"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Bicep",
@@ -1173,7 +1276,8 @@
       "azure",
       "devops",
       "cloud"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Vagrant",
@@ -1185,7 +1289,8 @@
       "devops",
       "ferramenta",
       "ambiente de desenvolvimento"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Liquibase",
@@ -1197,7 +1302,8 @@
       "devops",
       "migração",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Hono",
@@ -1209,7 +1315,8 @@
       "edge computing",
       "serveless",
       "javascript"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "Memcached",
@@ -1221,7 +1328,8 @@
       "banco de dados",
       "distribuído",
       "backend"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Zsh",
@@ -1233,7 +1341,8 @@
       "shell",
       "sistema operacional",
       "produtividade"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "OAuth 2.0",
@@ -1245,7 +1354,8 @@
       "autenticação",
       "protocolo",
       "backend"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Kafka Streams",
@@ -1257,7 +1367,8 @@
       "streaming",
       "biblioteca",
       "backend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Wasmtime",
@@ -1269,7 +1380,8 @@
       "webassembly",
       "serveless",
       "ferramenta"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Power BI",
@@ -1281,7 +1393,8 @@
       "visualização de dados",
       "análise",
       "microsoft"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "NixOS",
@@ -1293,7 +1406,8 @@
       "devops",
       "gerenciamento de pacotes",
       "reprodutibilidade"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "XState",
@@ -1305,7 +1419,8 @@
       "biblioteca",
       "javascript",
       "arquitetura"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Temporal",
@@ -1317,7 +1432,8 @@
       "orquestração",
       "distribuído",
       "backend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Figma",
@@ -1329,7 +1445,8 @@
       "ui/ux",
       "ferramenta",
       "prototipagem"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Bun",
@@ -1342,7 +1459,8 @@
       "ferramenta",
       "backend",
       "frontend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Lit",
@@ -1354,7 +1472,8 @@
       "Biblioteca",
       "WebComponents",
       "Desenvolvimento Web"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Hyperledger Fabric",
@@ -1367,7 +1486,8 @@
       "DLT",
       "Consórcio",
       "Código Aberto"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Envoy",
@@ -1379,7 +1499,8 @@
       "Proxy",
       "Service Mesh",
       "Networking"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Protocol Buffers (Protobuf)",
@@ -1391,7 +1512,8 @@
       "Serialização",
       "API",
       "Comunicação"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Bazel",
@@ -1403,7 +1525,8 @@
       "DevOps",
       "Automação",
       "Monorepo"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Microsoft Azure",
@@ -1415,7 +1538,8 @@
       "Infraestrutura",
       "PaaS",
       "Microsoft"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "OData",
@@ -1427,7 +1551,8 @@
       "Protocolo",
       "Dados",
       "Padrões Web"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "WebRTC",
@@ -1439,7 +1564,8 @@
       "Comunicação",
       "Tempo Real",
       "P2P"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Solr",
@@ -1451,7 +1577,8 @@
       "Banco de Dados",
       "Full-text",
       "Apache"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Crystal",
@@ -1463,7 +1590,8 @@
       "Compilada",
       "Backend",
       "Produtividade"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "F#",
@@ -1475,7 +1603,8 @@
       "Funcional",
       ".NET",
       "Microsoft"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Spinnaker",
@@ -1488,7 +1617,8 @@
       "Pipeline",
       "Automação",
       "Multi-Cloud"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Istio",
@@ -1500,7 +1630,8 @@
       "Service Mesh",
       "Observabilidade",
       "Networking"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "DigitalOcean",
@@ -1512,7 +1643,8 @@
       "IaaS",
       "Hospedagem",
       "Infraestrutura"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Zigbee",
@@ -1524,7 +1656,8 @@
       "Protocolo",
       "Hardware",
       "Rede Mesh"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Datomic",
@@ -1536,7 +1669,8 @@
       "Imutável",
       "Transacional",
       "Distribuído"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "ZeroMQ (ØMQ)",
@@ -1548,7 +1682,8 @@
       "Rede",
       "Sistemas Distribuídos",
       "Concorrência"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Webpack",
@@ -1560,7 +1695,8 @@
       "Build Tool",
       "Empacotamento",
       "Otimização"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Storybook",
@@ -1572,7 +1708,8 @@
       "UI/UX",
       "Documentação",
       "Componentes"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "TLA+",
@@ -1584,7 +1721,8 @@
       "Formal",
       "Sistemas Distribuídos",
       "Matemática"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Chronos",
@@ -1596,7 +1734,8 @@
       "Sistemas Distribuídos",
       "DevOps",
       "Automação"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Qwik",
@@ -1608,7 +1747,8 @@
       "Framework",
       "Performance",
       "Desenvolvimento Web"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Mithril",
@@ -1620,7 +1760,8 @@
       "Framework",
       "MVC",
       "Leve"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Babylon.js",
@@ -1632,7 +1773,8 @@
       "Gráficos",
       "Jogos",
       "Web"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Cloud Events",
@@ -1645,7 +1787,8 @@
       "Interoperabilidade",
       "Microsserviços",
       "CNCF"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "OCaml",
@@ -1657,7 +1800,8 @@
       "funcional",
       "sistemas",
       "compilador"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Apache Airflow",
@@ -1669,7 +1813,8 @@
       "workflow",
       "data engineering",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Vault",
@@ -1681,7 +1826,8 @@
       "devops",
       "gerenciamento de segredos",
       "infraestrutura"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Amazon DynamoDB",
@@ -1693,7 +1839,8 @@
       "nosql",
       "serveless",
       "cloud computing"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Google Cloud Platform (GCP)",
@@ -1705,7 +1852,8 @@
       "infraestrutura",
       "serviços em nuvem",
       "plataforma"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Bitbucket",
@@ -1717,7 +1865,8 @@
       "devops",
       "git",
       "colaboração"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Serverless Framework",
@@ -1729,7 +1878,8 @@
       "infraestrutura",
       "devops",
       "framework"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Semantic Kernel",
@@ -1741,7 +1891,8 @@
       "sdk",
       "desenvolvimento de software",
       "llm"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "Nextcloud",
@@ -1753,7 +1904,8 @@
       "colaboração",
       "nuvem privada",
       "produtividade"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Webflow",
@@ -1765,7 +1917,8 @@
       "frontend",
       "design",
       "cms"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Lerna",
@@ -1777,7 +1930,8 @@
       "monorepo",
       "ferramenta",
       "gestão de projetos"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "OpenShift",
@@ -1789,7 +1943,8 @@
       "containers",
       "devops",
       "cloud computing"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Netlify",
@@ -1801,7 +1956,8 @@
       "serveless",
       "frontend",
       "ci/cd"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Digital Twins",
@@ -1813,7 +1969,8 @@
       "arquitetura",
       "simulação",
       "indústria 4.0"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "PlanetScale",
@@ -1825,7 +1982,8 @@
       "mysql",
       "serveless",
       "cloud computing"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "SonarQube",
@@ -1837,7 +1995,8 @@
       "segurança",
       "devops",
       "análise estática"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "OpenStack",
@@ -1849,7 +2008,8 @@
       "iaas",
       "infraestrutura",
       "código aberto"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Chromatic",
@@ -1861,7 +2021,8 @@
       "teste de ui",
       "ci/cd",
       "componentes"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Rollup",
@@ -1873,7 +2034,8 @@
       "javascript",
       "ferramenta",
       "otimização"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Alpine.js",
@@ -1885,7 +2047,8 @@
       "javascript",
       "framework",
       "minimalista"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "MikroORM",
@@ -1897,7 +2060,8 @@
       "backend",
       "typescript",
       "banco de dados"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Pulumi",
@@ -1909,7 +2073,8 @@
       "iac",
       "devops",
       "cloud computing"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Appium",
@@ -1921,7 +2086,8 @@
       "mobile",
       "automação",
       "qa"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "CircleCI",
@@ -1933,7 +2099,8 @@
       "devops",
       "automação",
       "plataforma"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "OAuth",
@@ -1945,7 +2112,8 @@
       "segurança",
       "autenticação",
       "api"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Keycloak",
@@ -1957,7 +2125,8 @@
       "autenticacao",
       "openid connect",
       "single sign-on"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Quarkus",
@@ -1970,7 +2139,8 @@
       "microservicos",
       "jvm",
       "serverless"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "Linkerd",
@@ -1982,7 +2152,8 @@
       "service mesh",
       "infraestrutura",
       "microservicos"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "ClickHouse",
@@ -1994,7 +2165,8 @@
       "olap",
       "analise de dados",
       "processamento em tempo real"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "NATS",
@@ -2006,7 +2178,8 @@
       "servicos",
       "nuvem",
       "streaming"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Ionic",
@@ -2018,7 +2191,8 @@
       "frontend",
       "framework",
       "hibrido"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "Jekyll",
@@ -2030,7 +2204,8 @@
       "backend",
       "blog",
       "web"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Extreme Programming (XP)",
@@ -2041,7 +2216,8 @@
       "metodologia agil",
       "engenharia de software",
       "processo"
-    ]
+    ],
+    "categoria": "Metodologia"
   },
   {
     "nome": "Vitest",
@@ -2053,7 +2229,8 @@
       "javascript",
       "tooling",
       "desenvolvimento frontend"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Caddy",
@@ -2065,7 +2242,8 @@
       "proxy reverso",
       "infraestrutura",
       "seguranca"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "ESBuild",
@@ -2077,7 +2255,8 @@
       "bundler",
       "compilador",
       "javascript"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Heroku",
@@ -2089,7 +2268,8 @@
       "cloud computing",
       "deployment",
       "hosting"
-    ]
+    ],
+    "categoria": "Cloud"
   },
   {
     "nome": "Jaeger",
@@ -2101,7 +2281,8 @@
       "rastreamento",
       "microservicos",
       "devops"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Apache Flink",
@@ -2113,7 +2294,8 @@
       "processamento de stream",
       "analise de dados",
       "computacao distribuida"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Zapier",
@@ -2125,7 +2307,8 @@
       "integração",
       "no-code",
       "ferramenta"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Lua",
@@ -2137,7 +2320,8 @@
       "scripting",
       "embedded",
       "jogos"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Hibernate",
@@ -2149,7 +2333,8 @@
       "orm",
       "framework",
       "banco de dados"
-    ]
+    ],
+    "categoria": "Framework Backend"
   },
   {
     "nome": "WebKit",
@@ -2161,7 +2346,8 @@
       "navegadores",
       "web",
       "low-level"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Grafana",
@@ -2173,7 +2359,8 @@
       "monitoramento",
       "visualizacao de dados",
       "dashboards"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Apache Avro",
@@ -2185,7 +2372,8 @@
       "big data",
       "apache",
       "esquema de dados"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "TeamCity",
@@ -2197,7 +2385,8 @@
       "automacao",
       "devops",
       "ferramenta"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Snowflake",
@@ -2209,7 +2398,8 @@
       "cloud computing",
       "banco de dados",
       "analise de dados"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "Bootstrap",
@@ -2221,7 +2411,8 @@
       "frontend",
       "ui/ux",
       "web design"
-    ]
+    ],
+    "categoria": "Framework Frontend"
   },
   {
     "nome": "OWASP ZAP",
@@ -2233,7 +2424,8 @@
       "testes de penetracao",
       "ferramenta",
       "web"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "FreeRTOS",
@@ -2245,7 +2437,8 @@
       "iot",
       "embarcados",
       "rtos"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Dapr",
@@ -2257,7 +2450,8 @@
       "runtime",
       "cloud computing",
       "desenvolvimento distribuído"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Open Policy Agent (OPA)",
@@ -2269,7 +2463,8 @@
       "devops",
       "autorização",
       "governança"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Loki",
@@ -2281,7 +2476,8 @@
       "logging",
       "devops",
       "grafana stack"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "Mimir",
@@ -2293,7 +2489,8 @@
       "métricas",
       "time-series",
       "escalabilidade"
-    ]
+    ],
+    "categoria": "DevOps"
   },
   {
     "nome": "TiDB",
@@ -2305,7 +2502,8 @@
       "newsql",
       "distribuído",
       "oltp"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "YugabyteDB",
@@ -2317,7 +2515,8 @@
       "sql distribuído",
       "cloud native",
       "transacional"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "TensorFlow",
@@ -2329,7 +2528,8 @@
       "inteligência artificial",
       "framework",
       "ciência de dados"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "LLVM",
@@ -2341,7 +2541,8 @@
       "infraestrutura",
       "baixo nível",
       "desenvolvimento de sistemas"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "FreeBSD",
@@ -2353,7 +2554,8 @@
       "servidor",
       "unix-like",
       "networking"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Nix",
@@ -2365,7 +2567,8 @@
       "devops",
       "reprodutibilidade",
       "build system"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Pandas",
@@ -2377,7 +2580,8 @@
       "análise de dados",
       "biblioteca",
       "manipulação de dados"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "ActiveMQ",
@@ -2389,7 +2593,8 @@
       "middleware",
       "integração de sistemas",
       "assíncrono"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "OpenAPI Specification",
@@ -2401,7 +2606,8 @@
       "especificação",
       "documentação",
       "rest"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "SAML",
@@ -2413,7 +2619,8 @@
       "autenticação",
       "protocolo",
       "single sign-on"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "MQTT",
@@ -2425,7 +2632,8 @@
       "iot",
       "mensageria",
       "baixo consumo"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "CouchDB",
@@ -2437,7 +2645,8 @@
       "documento",
       "nosql",
       "replicação"
-    ]
+    ],
+    "categoria": "Banco de Dados"
   },
   {
     "nome": "FFmpeg",
@@ -2449,7 +2658,8 @@
       "processamento de vídeo",
       "ferramenta",
       "open source"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "WebGPU",
@@ -2461,7 +2671,8 @@
       "web standard",
       "computação paralela",
       "frontend"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Vulkan",
@@ -2473,7 +2684,8 @@
       "api",
       "baixo nível",
       "jogos"
-    ]
+    ],
+    "categoria": "Padrão"
   },
   {
     "nome": "Qiskit",
@@ -2485,7 +2697,8 @@
       "sdk",
       "simulação",
       "algoritmos"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "MLflow",
@@ -2497,7 +2710,8 @@
       "mlops",
       "rastreamento de experimentos",
       "ciência de dados"
-    ]
+    ],
+    "categoria": "IA & Machine Learning"
   },
   {
     "nome": "Wireshark",
@@ -2509,7 +2723,8 @@
       "segurança",
       "diagnóstico",
       "engenharia de rede"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "ROS (Robot Operating System)",
@@ -2521,7 +2736,8 @@
       "middleware",
       "sistemas embarcados",
       "simulação"
-    ]
+    ],
+    "categoria": "Ferramenta"
   },
   {
     "nome": "Scheme",
@@ -2533,7 +2749,8 @@
       "funcional",
       "lisp",
       "educacional"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Prolog",
@@ -2545,13 +2762,15 @@
       "lógica",
       "inteligência artificial",
       "pesquisa"
-    ]
+    ],
+    "categoria": "Linguagem de Programação"
   },
   {
     "nome": "Nim",
     "descricao": "Nim é uma linguagem de programação compilada e estaticamente tipada, fundamental para o desenvolvimento de software de alta performance, sendo usada principalmente por sua sintaxe expressiva e capacidade de gerar código C, C++ ou JavaScript. Juntamente com seu sistema de macros e gerenciamento de memória flexível, ela forma a base para a criação de desde sistemas embarcados e jogos até aplicações web e ferramentas de linha de comando.",
     "data_criacao": "2008",
     "link": "https://nim-lang.org/",
-    "tags": [ "linguagem de programação", "sistemas", "performance", "compilador" ]
+    "tags": [ "linguagem de programação", "sistemas", "performance", "compilador" ],
+    "categoria": "Linguagem de Programação"
   }
 ]
