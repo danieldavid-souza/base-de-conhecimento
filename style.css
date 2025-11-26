@@ -424,9 +424,13 @@ main {
 }
 
 @media (max-width: 768px) {
-    .header-content { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
-        padding: 1rem; /* Reduz o espaçamento interno */
+    header {
+        padding: 1rem; /* Reduz o padding do cabeçalho em telas menores */
+    }
+
+    .header-content {
+        flex-wrap: wrap; /* Permite que os itens quebrem a linha se necessário */
+        gap: 1rem; /* Mantém um espaçamento consistente */
     }
 
     .footer-content {
@@ -436,6 +440,12 @@ main {
     .filters-container {
         display: none; /* Esconde os filtros no cabeçalho em telas pequenas */
     }
+
+    .title-container {
+        order: 1; /* Garante que o título venha primeiro */
+        flex-grow: 1; /* Permite que o container do título ocupe o espaço disponível */
+    }
+
 
     /* --- Estilos do Menu Hambúrguer --- */
     .hamburger-btn {
@@ -501,13 +511,13 @@ main {
         gap: 1rem;
     }
 
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 0;
+    .search-container {
+        order: 3; /* Coloca a busca na linha de baixo */
+        width: 100%; /* Ocupa toda a largura */
     }
 
     .search-container input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
+        width: 100%; /* Faz o input ocupar todo o espaço do container */
         font-size: 1.2rem; /* Reduz o tamanho da fonte */
     }
 
@@ -516,6 +526,7 @@ main {
     }
 
     .hamburger-btn {
+        order: 2; /* Coloca o hambúrguer depois do título */
         display: flex;
     }
 }
